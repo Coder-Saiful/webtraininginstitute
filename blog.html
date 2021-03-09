@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ব্লগসমূহ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Menu part start-->
+
+    <header id="header_part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="not found" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free_course.html">ফ্রি কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="premium_course.html">প্রিমিয়াম কোর্স</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="blog.html">ব্লগসমূহ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                সার্ভিস সমূহ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="webdesign_service.html">ওয়েবসাইট ডিজাইন</a>
+                                <a class="dropdown-item" href="webdevelopment_service.html">ওয়েবসাইট ডেভেলপমেন্ট</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question.html">প্রশ্নউত্তর</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html">শর্তাবলী</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn student_feedback" data-toggle="modal" data-target="#exampleModal">
+                                Student Feedback
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add Your Feedback</h5>
+                                            <p>আমদের ফ্রী এবং প্রিমিয়াম ভিডিও কোর্সগুলো আপনাদের কাছে কেমন লাগছে সেই সম্পর্কে ফিডব্যাক দিন...</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="">Your Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Picture</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Feedback <span>*</span></label>
+                                                    <textarea rows="6" placeholder="ওয়েব ট্রেনিং ইনস্টিটিউট সম্পর্কে এখানে লেখুন" class="form-control"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn student_feedback_close_button" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn student_feedback_submit_button">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Menu part end-->
+
+    <!--New banner start-->
+
+    <section id="new_banner_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_banner_text text-center">
+                        <h2>ব্লগসমূহ</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New banner end-->
+
+    <!--All blog start-->
+
+    <section id="all_blog_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center">
+                        <h2><span>||</span> আমাদের সকল <span>ব্লগগুলো পড়ুনঃ</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row all_blog_content">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog1">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog1.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>1-January-2020</span>
+                                <span style="color:red;float:right;">12:00:00 AM</span>
+                                <h3>আমাদের কোর্স</h3>
+                                <p>ওয়েব ট্রেনিং ইনস্টিটিউট এর টিউটোরিয়াল এখন পওয়া যাচ্ছে ঢাকার মৌচাক অফিসে, এর সাথে সাথে সমগ্র ঢাকা শহরের মধ্যে হোম ডেলিভারি দেওয়া হচ্ছে একদম ফ্রীতে! তাছাড়া সারা দেশের হোম ডেলিভারী তো থাকছেই! এবার ঘরে বসেই সংগ্রহ করুন সকল ডিভিডি</p>
+                                <a href="blog1_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog2">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog2.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>15-December-2019</span>
+                                <span style="color:red;float:right;">10:30:33 PM</span>
+                                <h3>ওয়েব ডিজাইন পরিচিতি</h3>
+                                <p>ওয়েব ডিজাইন হচ্ছে একটি ওয়েব সাইটের জন্য বাহ্যিক অবকাঠামো তৈরি করা । ওয়েবসাইট দেখতে কেমন হবে অথবা এর সাধারণ রূপ কেমন হবে তা নির্ধারণ করা । ওয়েব ডিজাইনার দের কাজ হচ্ছে আমরা নিয়মিত যে ওয়েবসাইট গুলো ভিজিট করে থাকি ক্লাইন্ট এর চাহিদা অনুযায়ী সেই রকম ওয়েবসাইট তৈরি করা।</p>
+                                <a href="blog2_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog3">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog3.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>1-December-2019</span>
+                                <span style="color:red;float:right;">11:48:20 AM</span>
+                                <h3>রেস্পন্সিভ ওয়েব ডিজাইন</h3>
+                                <p>বর্তমান সময়েসবচাইতে জনপ্রিয় ডিভাইস এর নাম স্মার্টফোন। স্মার্টফোন এর জনপ্রিয়তার সাথে সাথে মোবাইল থেকে ওয়েবসাইটে ভিজিটের সংখ্যা দ্রুত বাড়ছে। গবেষনায় দেখা যায় ২০১৮ সালে মোট ওয়েবসাইট ভিজিট এর মধ্যে ৫২ শতাংশ এর বেশী স্মার্টেফোন ব্যবহারকারী। স্মার্টফোন এর এই দারুন জনপ্রিয়তা সার্চ ইন্জিনগুলোকে অনেকটা বাধ্য করছে ওয়েবসাইট এর মোবাইল ভিউকে গুরুত্ব দেয়ার জন্য। Google এর সর্বশেষ আপডেটে ওয়েবসাইট এর মোবাইল ভার্সনকে গুরুত্ব দেয়া হয়েছে এবং মোবাইল সার্চ ইন্জিন রেজাল্ট পেজে(SERP) যে ওয়েবসাইটগুলোর মোবাইল ভার্সন আছে শুধু সেগুলোকেই স্থান দেয়া হচ্ছে।</p>
+                                <a href="blog3_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog4">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog4.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>25-November-2019</span>
+                                <span style="color:red;float:right;">08:30:33 PM</span>
+                                <p>ঠিক এই মুহূর্তে প্রায় ১.২ বিলিয়ন ওয়েবসাইট রয়েছে পৃথিবীতে।Yahoo এর করা এক জরীপ থেকে দেখা যায়, শুধুমাত্র আমেরিকাতেই প্রতি মাসে প্রায় ১৬ মিলিয়নের বেশী অর্থাৎ ১ কোটি ৬০ লাখেরও বেশী ওয়েবসাইট তৈরি করা হয়ে থাকে! যার প্রায় ৭০% এরও বেশী করা হয় প্রোফেশনাল ওয়েব ডিজাইনার হায়ার করে এবং যার মার্কেট ভেল্যু ২০.১ বিলিয়ন মার্কিন ডলার, বাংলাদেশী টাকায় যার পরিমাণ প্রায় ১৬ হাজার ৮০০ কোটি টাকা!</p>
+                                <a href="blog4_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog5">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog5.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>12-November-2019</span>
+                                <span style="color:red;float:right;">03:20:55 PM</span>
+                                <p>আমরা সব সময়ই বলি, অনলাইনে আয়ের দুটি রাস্তা। এক, চাকরি করা এবং দুই, ব্যাবসা করা। আমাদের বাস্তব জীবনের মত অনলাইনেও আমরা চাকরি এবং ব্যবসা দুটোই করতে পারি। আর আজকে আপনাদের সাথে কথা বলব অনলাইনের একটি স্থায়ী ইনভেস্ট সম্পর্কে যেটা আপনি একবার করলে সারাজীবন বসে বসেই খেতে পারবেন। হ্যা, এমন একটি ইনভেস্ট হচ্ছে একটি ওয়েবসাইট। একটি ওয়েবসাইট হতে পারে আপনার সারা জীবনের স্থায়ী উপার্জনের ক্ষেত্রে। তাহলে চলুন দেখি কিভাবে?</p>
+                                <a href="blog5_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog6">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog6.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>02-October-2019</span>
+                                <span style="color:red;float:right;">05:05:20 PM</span>
+                                <p>দিন দিন ওয়েব ডিজাইনারের চাহিদা বাড়ছে, কিন্তু দক্ষ ওয়েব ডিজাইনারের সংখ্যা আনুপাতিক হারে বাড়ছে না।“কাজেই একটু আধটু শিখেই নয়, বরং ভাল করে কাজ শিখতে পারলে কাজের অভাব হবেনা ইনশা-আল্লাহ্‌” পোস্টটি পুরো ১০ মিনিট সময় নিয়ে শুরু থেকে একদম শেষ পর্যন্ত মনোযোগ দিয়ে পড়ুন</p>
+                                <a href="blog6_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog7">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog7.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>21-September-2019</span>
+                                <span style="color:red;float:right;">07:48:33 PM</span>
+                                <p>ফ্রিল্যান্সার বা ফ্রিল্যান্সিং শব্দ দুইটির সাথে আমরা সবাই কমবেশি পরিচিত। স্বাধীন ভাবে নিজের পছন্দ মত কাজ করা এবং ভালো আয় এর নিশ্চয়তার কারনে অনেকের কাছেই ফ্রিল্যান্সিং বা মুক্তপেশা এখন প্রথম পছন্দের নাম। কিন্তু কোন কাজটি আপনি শিখবেন অথবা কোথায় থেকে শুরু করবেন? কাজই বা কোথায় করবেন? আজ আমরা ফ্রিল্যান্সিং বিষয়টি নিয়ে বিস্তারিত আলোচনা করার চেস্টা করবো। চেস্টা করবো আপনার সবগুলো প্রশ্নের উত্তর খুজতে। তাহলে শুরু করা যাক,</p>
+                                <a href="blog7_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog8">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog8.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>05-September-2019</span>
+                                <span style="color:red;float:right;">02:35:12 AM</span>
+                                <p>আমরা অনেক কিছুতে এগিয়ে গেলেও অনলাইন লার্নিং ক্ষেত্রে অন্যদের তুলনায় এখনো অনেক পিছিয়ে আছি, আসলে আমাদের এই বিষয়টিতে কম অভ্যস্ততায় মূল কারণ। আসুন আমরা এর উত্তর খুঁজি :</p>
+                                <a href="blog8_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog9">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog9.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>17-August-2019</span>
+                                <span style="color:red;float:right;">03:09:42 AM</span>
+                                <p>অসহ্য জ্যাম পার হয়ে ৯ টা ৫টা অফিস কিংবা অফিস পলিটিক্স একটি বিরক্তিকর চাকুরীকে অসহ্য তে পরিনত করতে পারে। অফিস এর বাঁধা ধরা নিয়ম এর বাইরে যদি আপনি নিজেই কিছু করতে চান তাহলে ফ্রিল্যান্সিং হতে পারে আপনার জন্য সবচাইতে সেরা পছন্দ।কিন্ত ফ্রিল্যান্সিং কি শুধু মাত্র আপনার নিজের জন্য কিছু করার স্বাধীনতাটুকু দিবে নাকি আরও অনেক কিছু?</p>
+                                <a href="blog9_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog10">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog10.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>06-August-2019</span>
+                                <span style="color:red;float:right;">11:07:33 PM</span>
+                                <p>বর্তমান প্রতিযোগীতার যুগে চাকুরী পাওয়াটাই অনেক কঠিন ব্যাপার আর ব্যাপারটা আরও সৌভাগ্যের হয়ে যায় যদি এমন চাকুরী পাওয়া যায় যা আপনি করতে ভালোবাসেন। এমন কিছু যেখানে আপনি আপনার দক্ষতাকে প্রকাশ করতে পারবেন, দিন এর পর দিন যেই কাজ করতে আপনার কখনও বিরক্ত লাগবে না। কিন্তু সেই সৌভাগ্য অধিকাংশ সময়ে আমাদের হয় না, আর গ্রাজুয়েশন শেষ করে আপনি হয়তো কম বেতনের এমন কোন কাজ করছেন যেখানে না আছে দক্ষতা প্রমান এর সুযোগ না আছে নতুন ‍কিছু শেখার আনন্দ। বিরক্তিকর কিছু করতে করতে আপনি হয়তো হারিয়ে ফেলেছেন কাজ করার আনন্দটুকুই। ফ্রিল্যান্সিং এর মজাটা এখানেই, একজন ফ্রিল্যান্সার এভাবেই অন্য যে কোন পেশাজীবিদের থেকে আলাদা এবং স্বাধীন।</p>
+                                <a href="blog10_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog11">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog11.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>19-July-2019</span>
+                                <span style="color:red;float:right;">05:16:09 AM</span>
+                                <p>ছেলেদের তুলনায় একটা মেয়ের ক্যারিয়ার ডেভেলপমেন্ট এর পথে আসতে পারে বিভিন্ন বাধা। সেক্ষেত্রে ফ্রিল্যান্সিং হতে পারে মেয়েদের জন্য নিরাপদ ও নিশ্চিন্ত পেশা। ফ্রিল্যান্সিং হতে পারে একজনের নিজের জগত , নিজের অফিস। নিজের ইচ্ছা মতো একজন এখানে কাজ করতে ও সময় দিতে পারে। নারীদের ক্যারিয়ার সম্ভাবনা নির্ভর করে সঠিক দক্ষতা অর্জনের মাদ্ধমে। অর কোন বিষয়ে তিনি নিজেকে ডেভেলপ করবে সেই সিদ্ধান্তটি নিতে হয় অনেক কিছু বিবেচনা করে। কারণ, এই স্কিল এ হতে পারে তার ভবিষ্যত ক্যারিয়ার এর পাথেয়। এছাড়াও, একটা মেয়ের কর্মজীবনের সাথে জড়িয়ে আছে তার পরিবারের বিষয়গুলো।</p>
+                                <a href="blog11_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_blog blog12">
+                        <div class="all_free_course_details mt-0">
+                            <div class="all_free_course_image">
+                                <img src="img/blog12.jpg" alt="not" class="img-fluid">
+                            </div>
+                            <div class="all_free_course_text">
+                                <span>03-July-2019</span>
+                                <span style="color:red;float:right;">12:50:32 PM</span>
+                                <p>ইন্টারনেট থেকে আয়!- অনেকের কাছে আজব কিছু, অনেকের কাছে সুপরিচিত শব্দ। অনেকেই সফল, আবার অনেকে খুজেই চলেছেন কিভাবে কি? আবার অনেকেই বেশি আয়ের লোভে পড়ে ধরা খেয়েছেন হাজার এমনকি লাখ টাকাও!! কিন্তু কখনো জেনেছেন কি আসল বাস্তবতা? কি এটা, কি করা উচিত, কিভাবে করা উচিত? এই সম্পর্কিত সুপার গাইডলাইন নিয়েই আজকের পর্ব।</p>
+                                <a href="blog12_details.html"> বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--All blog end-->
+
+    <!--Footer part start-->
+
+    <footer id="footer_part">
+        <div class="container">
+            <div class="row footer_top_wra">
+                <div class="col-lg-4">
+                    <div class="footer_left wow slideInLeft" data-wow-duration="1s">
+                        <img src="img/logo.png" alt="not found" class="img-fluid">
+                        <h2>ওয়েব ট্রেনিং ইনস্টিটিউট</h2>
+                        <p>ওয়েব ট্রেনিং ইনস্টিটিউট বাংলাদেশের অন্যতম একটি অনলাইন কোচিং সেন্টার। আমাদের অনলাইন এবং অফলাইন কোর্সগুলো দেখুন, ব্লগ পোস্ট গুলো পড়ুন এবং নিজেকে একজন সফল ওয়েব ডিজাইনার এবং ওয়েব ডেভেলপার হিসেবে গড়ে তুলুন। আন্তর্জাতিক মানের ওয়েব ডিজাইনার এবং ডেভেলপার তৈরি করা হচ্ছে আমাদের একমাত্র উদ্দেশ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_middle wow slideInDown" data-wow-duration="1.5s">
+                        <h3>ওয়েব ট্রেনিং লিংকস</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/webtraininginstitute360" target="_blank">ফেইসবুক পেইজ</a></li>
+                            <li><a href="https://www.facebook.com/groups/websecrectgroup" target="_blank">ফেইসবুক গ্রুপ</a></li>
+                            <li><a href="https://www.youtube.com/webtraininginstitute" target="_blank">ইউটিউব চ্যানেল</a></li>
+                            <li><a href="free_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ফ্রী কোর্স</a></li>
+                            <li><a href="premium_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট প্রিমিয়াম কোর্স</a></li>
+                            <li><a href="blog.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ব্লগ</a></li>
+                            <li><a href="webdesign_service.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট সার্ভিস</a></li>
+                            <li><a href="contact.html" target="_blank">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_right wow slideInRight" data-wow-duration="1s">
+                        <h3>যোগাযোগ করুন</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> মৌচাক অফিসঃ মাহেরা কটেজ (UCC গলি), ৮০ সিদ্ধেশ্বরী রোড, ঢাকা-১২১৭। (রস মিষ্টান্ন ভান্ডার এর পাশের গলি)</p>
+                        <p><i class="fas fa-phone-square"></i> 01868752464, 01318948051</p>
+                        <p><i class="fas fa-envelope"></i> info.webtraininginstitute@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.webtraininginstitute.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom_wrap">
+                <div class="col-lg-12">
+                    <div class="footer_bottom_text text-center">
+                        <p>Copyright <span>&copy;</span> 2019 Web Training Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer part end-->
+
+    <!--Scroll to top start-->
+
+    <div class="scroll_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--Scroll to top end-->
+
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

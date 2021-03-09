@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ব্লগ ডিটেইলস</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Menu part start-->
+
+    <header id="header_part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="not found" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free_course.html">ফ্রি কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="premium_course.html">প্রিমিয়াম কোর্স</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="blog.html">ব্লগসমূহ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                সার্ভিস সমূহ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="webdesign_service.html">ওয়েবসাইট ডিজাইন</a>
+                                <a class="dropdown-item" href="webdevelopment_service.html">ওয়েবসাইট ডেভেলপমেন্ট</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question.html">প্রশ্নউত্তর</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html">শর্তাবলী</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn student_feedback" data-toggle="modal" data-target="#exampleModal">
+                                Student Feedback
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add Your Feedback</h5>
+                                            <p>আমদের ফ্রী এবং প্রিমিয়াম ভিডিও কোর্সগুলো আপনাদের কাছে কেমন লাগছে সেই সম্পর্কে ফিডব্যাক দিন...</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="">Your Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Picture</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Feedback <span>*</span></label>
+                                                    <textarea rows="6" placeholder="ওয়েব ট্রেনিং ইনস্টিটিউট সম্পর্কে এখানে লেখুন" class="form-control"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn student_feedback_close_button" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn student_feedback_submit_button">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Menu part end-->
+
+    <!--New banner start-->
+
+    <section id="new_banner_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_banner_text text-center">
+                        <h2>ব্লগ ডিটেইলস</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New banner end-->
+
+    <!--Blog details part start-->
+
+    <section id="blog_details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_head text-center">
+                        <img src="img/blog5.jpg" alt="not found" class="img-fluid">
+                        <h5>12-November-2019, <span style="font-weight:400;">By-</span> <span style="font-weight: 400;color:orange;">Rajiur Rahman</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_bottom">
+                        <h4>আমরা সব সময়ই বলি, অনলাইনে আয়ের দুটি রাস্তা। এক, চাকরি করা এবং দুই, ব্যাবসা করা। আমাদের বাস্তব জীবনের মত অনলাইনেও আমরা চাকরি এবং ব্যবসা দুটোই করতে পারি। আর আজকে আপনাদের সাথে কথা বলব অনলাইনের একটি স্থায়ী ইনভেস্ট সম্পর্কে যেটা আপনি একবার করলে সারাজীবন বসে বসেই খেতে পারবেন। হ্যা, এমন একটি ইনভেস্ট হচ্ছে একটি ওয়েবসাইট। একটি ওয়েবসাইট হতে পারে আপনার সারা জীবনের স্থায়ী উপার্জনের ক্ষেত্রে। তাহলে চলুন দেখি কিভাবে?</h4>
+                        <h2>শুরুতেই একটু জানি, মানুষ কেন ওয়েবসাইট তৈরি করে?</h2>
+                        <h4>একটি ওয়েবসাইট হচ্ছে আপনার যে কোন প্রতিষ্ঠানের অনলাইন পরিচয়। যে কোন কোম্পানি, স্কুল, কলেজ ইত্যাদি সকল প্রতিষ্ঠান তাদের নামে ওয়েবসাইট করে থাকে যাতে করে ইন্টারনেটে তাদের সম্পর্কে জানা যায় এবং তাদের বিভিন্ন সেবা বা সার্ভিস সম্পর্কে মানুষ যেন সহজেই জানতে পারে। এই জাতীয় ওয়েবসাইট গুলো হচ্ছে মূলত প্রাতিষ্ঠানিক ওয়েবসাইট।</h4>
+                        <h4>কিন্তু প্রাতিষ্ঠানিক ওয়েবসাইটের বাইরেও কিন্তু রয়েছে আরও প্রচুর ওয়েবসাইট যেগুলো হচ্ছে ব্যক্তিগত বা ব্যবসায়িক। এই ধরণের ওয়েবসাইট গুলোতে সাধারণত বিভিন্ন টিপস, ট্রিক, আইডিয়া, বিনোদন, খবর ইত্যাদি বিষয় দেয়া হয়ে থাকে। এই গুলোকে আপনি অ-প্রাতিষ্ঠানিক ওয়েবসাইট ও বলতে পারেন। এই ধরনের ওয়েবসাইট গুলো করা হয় সাধারণত সখের বসে অথবা, লং টাইম ব্যাবসা করার জন্য।</h4>
+                        <h4>যেমন ধরুন, বাংলা ভাষায় বর্তমানে সবচেয়ে বড় টেকনোলোজি সাইট কোনটি? অবশ্যই, টেকটিউনস। এটা কিন্তু কোন প্রাতিষ্ঠানিক ওয়েবসাইট নয়, এটা হচ্ছে টেকনোলজি সংক্রান্ত ওয়েবসাইট বা ব্লগ যেখানে বিভিন্ন মানুষ বা লেখকেরা টেকনোলজি বিষয়ে তাদের বিভিন্ন জ্ঞান শেয়ার করে। এতে করে প্রতিদিন হাজার হাজার লোক টেকটিউনে প্রবেশ করে বিভিন্ন বিষয় শেখার জন্য। তাহলে টেকটিউন হচ্ছে একটি নন-প্রাতিষ্ঠানিক ওয়েবসাইট। ঠিক একই ভাবে আপনিও যদি এই ধরনের একটি ওয়েবসাইট প্রতিষ্ঠা করে সঠিক জায়গায় নিয়ে আসতে পারেন তাহলে আপানার বাকী জীবন এই ওয়েবসাইট দিয়েই চালিয়ে দিতে পারবেন যদি আপনি বুদ্ধিমান হন।</h4>
+                        <h2>তাহলে কিভাবে একটি ওয়েবসাইট বা ব্লগ থেকে আয় করা যায়?</h2>
+                        <h4>শুরুতেই বলে নেই, নতুনদের মাঝে ওয়েবসাইট বা ব্লগ নিয়ে বেশ ভাল কনফিউশন দেখা যায়। আসলে ব্লগ হচ্ছে এক ধরনের ওয়েবসাইট যেখানে নিয়মিত বিভিন্ন বিষয়ে লিখালিখি করা হয়। সেটা হতে পারে যে কোন বিষয়। আর ওয়েবসাইট হচ্ছে এক ধরনের সাইট যেখানে সাধারণত তেমন কোন চেঞ্জ হয় না, বা যেখানে লিখালিখির ব্যাপার থাকে না। আপনি ওয়েবসাইট বা ব্লগ যেটাই করুন না কেন সেখান থেকে অবশ্যই আয় সম্ভব। চলুন সামনের দিকে এগুনো যাক।</h4>
+                        <h2>ওয়েবসাইট / ব্লগ থেকে আয় করার অনেক পদ্ধতি রয়েছে। নিচে সংক্ষেপে কয়েকটি পদ্ধতি নিয়ে আলোচনা করা হলঃ</h2>
+                        <p>১. বিজ্ঞাপন থেকে আয়ঃ আপনার ওয়েবসাইটে যদি বেশ ভাল ট্রাফিক (ট্রাফিক হচ্ছে ভিজিটর বা মানুষ যারা আপনার ওয়েবসাইট ভিজিট করবে) থাকে তাহলে আপনি আপনার ওয়েবসাইটে অন্যান্য কোম্পানীর বিজ্ঞাপন প্রদর্শন করিয়ে সেখান থেকে আয় করতে পারেন।</p>
+                        <p>যেমন- আমরা প্রায় সময়ই বিভিন্ন ওয়েবসাইটে ঢুকলে ওয়েবসাইটের বিভিন্ন জায়গায় বিভিন্ন পন্যের বিজ্ঞাপন দেখে থাকি। এই জাতীয় বিজ্ঞাপন গুলো ওয়েবসাইটে প্রদর্শন করানোর মাধ্যমে আপনি আয় করতে পারেন। আপনার ওয়েবসাইটে যে কোম্পানির বিজ্ঞাপন প্রদর্শন করাবেন সেই কোম্পানী আপনাকে একটি নির্দিষ্ট মূল্য পে করবে তাদের বিজ্ঞাপন আপনার ওয়েবসাইটে প্রদর্শন করানোর জন্য।</p>
+                        <p>তাহলে এবার বলতে পারেন, এই সকল কোম্পানির বিজ্ঞাপন পাব কোথায়? এই ধরনের বিজ্ঞাপন পাওয়ার জন্য অনলাইনে অনেক জনপ্রিয় সাইট আছে (যেমন- গুগল অ্যাডসেন্স)। এই সকল সাইট থেকে কিভাবে অ্যাড নিবেন এবং কিভাবে আয় হবে সেটা নিয়ে ইনশাআল্লাহ পরবর্তীতে বিস্তারিত আলচনা করা হবে।</p>
+                        <h2>এখন শুধু ওয়েবসাইট থেকে আয় করার কিছু প্রসেস সম্পর্কে জানি</h2>
+                        <p>২. নিজের কোন পন্য বিক্রি করে আয়ঃ আপনার ওয়েবসাইট যদি জনপ্রিয় হয়ে ওঠে এবং প্রতিদিন বেশ ভাল ট্রাফিক থাকে তাহলে আপনি আপনার নিজের তৈরি করা কোন পন্যের বিজ্ঞাপন সেখানে দিতে পারেন এবং সেখান থেকে আপনি আপনার পন্যের জন্য বেশ ভাল সেল পেতে পারেন। তবে এটা শুধুমাত্র, যদি আপনার তৈরি করা কোন প্রোডাক্ট থাকে তাহলেই সম্ভব। আপনার যদি বিক্রি করার মত কোন পণ্য না থাকে তাহলে এই ক্ষেত্রে সম্ভব নয়।</p>
+                        <p>৩. অ্যাফিলিয়েট মার্কেটিং করে আয়ঃ অ্যাফিলিয়েট মার্কেটিং হচ্ছে অনেকটা সেলসম্যান এর মত। এখানে, আপনাকে বিভিন্ন কোম্পানির পণ্য বিক্রি করে দিতে হবে এবং প্রতিবার যখন আপনি অন্য কোম্পানির কোন পণ্য আপনার নিজের মাধ্যমে বিক্রি করতে পারবেন তখন আপনাকে সেই বিক্রয়কৃত অর্থ থেকে কমিশন দেয়া হবে। আপনি চাইলে আপনার ওয়েবসাইটে এই জাতীয় মার্কেটিং করতে পারেন। নিজের সাইট বা ব্লগ করে আমাদের দেশে অনেকেই অ্যাফিলিয়েট মার্কেটিং করছেন। কাজেই আপনিও এই জাতীয় কাজ করে আয় করতে পারেন।</p>
+                        <p>৪. ইমেইল কালেকশনঃ আমরা সবাই মোটামুটি কম বেশি নেট থেকে বই, গান, ভিডিও ইত্যাদি ডাউনলোড করে থাকি। তবে, মাঝে মাঝে বিভিন্ন ওয়েবসাইট থেকে বই বা মুভি ডাউনলোড করতে গেলে আমরা দেখে থাকি আমাদের ইমেইল অ্যাড্রেস দিতে বলে। আমরা ইমেইল অ্যাড্রেস দিলে তারপর আমাদেরকে সেটা ডাউনলোড করতে দেয়। কিন্তু কেন এমনটা হয়, কেন ইমেইল এর ঠিকানা চায় ওই ডাউনলোড সাইট গুলো? এটা হচ্ছে এই জন্য যে, আপনি গান ডাউনলোড করার সময় আপনার যে ইমেইল এড্রেসটি দিবেন সেটি ওই ওয়েবসাইট কর্তৃপক্ষ সংরক্ষন করে রাখবে। এই ভাবে যতজন ওই গানটি ডাউনলোড করতে তত জনের ইমেইল অ্যাড্রেস তার কাছে থাকবে।</p>
+                        <p>কিন্তু সব কথার বড় কথা হল, ওয়েবসাইটে যদি ট্রাফিক বা ভিজিটর না থাকে তাহলে কোন লাভই নেই। কারন, যে সাইটের ভিজিটর নেই সেই সাইটে কেউই টাকা খরচ করে বিজ্ঞাপন দিবে না। আর তাই যে কোন ওয়েবসাইট আপনার আয়ের উৎস তখনই হবে যখন আপনার সাইটটি জনপ্রিয় হয়ে উঠবে এবং প্রতিদিন প্রচুর পরিমাণ লোক আপনার সাইট ভিজিট করবে। কিন্তু এই পর্যায়ে একটি ওয়েবসাইটকে নিয়ে আসার জন্য প্রয়োজন প্রচুর পরিশ্রম আর ধৈর্য্য।</p>
+                        <h2>তাহলে কি সিদ্ধান্ত নিলেন? কোনটা করবেন? ওয়েবসাইট নাকি ব্লগ?</h2>
+                        <p>অনেকেই কনফিউশনে থাকেন যে ওয়েবসাইট করবেন নাকি ব্লগ করবেন। কিন্তু এমনটার কারন হচ্ছে এই দুইটার মধ্যে পার্থক্য না বোঝা। আসলে ব্লগ আর ওয়েবসাইটের মধ্যে খুব বেশি পার্থক্য নেই। ব্লগ হচ্ছে এক ধরনের ওয়েবসাইট যেখানে বিভিন্ন লেখক তার লিখা পাবলিশ করতে পারে। আর সকল ব্লগকেই এক একটি ওয়েবসাইট বলা চলে। তাই যেহেতু পার্সোনাল বিজনেস বা বিজ্ঞাপন থেকে আয় করা হচ্ছে আমাদের ওয়েবসাইটের উদ্দেশ্য তাই আমার মতে ব্লগ সাইট বানানোই উত্তম কারন, এখানে আপনি নিয়মিত লিখতে পারবেন এবং নতুন নতুন লিখা পড়ার জন্য নিয়মিত বিভিন্ন ভিজিটর পেতে থাকবেন। আর তাছাড়া, ব্লগিং হচ্ছে বর্তমান সময়ের প্রচুর জনপ্রিয় প্রেক্ষাপট। এর মাধ্যমে বিভিন্ন লেখক তার লিখা গোটা বিশ্বের কাছে ছড়িয়ে দিতে পারে। তবে, এর অপব্যবহার কারই কাম্য নয়।</p>
+                        <h2>কি বিষয়ে ওয়েবসাইট/ব্লগ তৈরি করবেন?</h2>
+                        <h4>আসলে প্রথম অবস্থায় সবচাইতে বড় যে সমস্যাটি হয় সেটি হচ্ছে, কোন বিষয়ে ব্লগ করবেন সেটাই খুজে না পাওয়া? এটার মূল কারন হচ্ছে তাড়াহুড়া করা। আমরা যখন কোন উৎসাহমূলক লিখা পড়ি বা কারন সফলতার গল্প শুনি তখনই মনে মনে সিদ্ধান্ত নিয়ে ফেলি আমিও তেমন হব, এর জন্য যত পরিশ্রম করতে হয় করব। হ্যা, এমন ভাবাই শ্রেয়। কিন্তু আমাদের প্রধান সমস্যা হচ্ছে আমরা ধৈর্য্য ধরার চেস্টা করতে পারি না, আমাদের সব কিছু ইন্সট্যান্ট বা তৎক্ষণাৎ দরকার। আর এই জন্য শেষ পর্যন্ত আমাদের তেমন কিছুই হয় না। আর তাই যেহেতু আপনার ব্লগ বা ওয়েবসাইট একদিন বা দুইদিনের জন্য নয়, যেহেতু এটা সারা জীবনের জন্য তাই হুট করেই সিদ্ধান্ত নিয়ে ফেলবেন না যে আপনি কোন বিষয়ে ওয়েবসাইট তৈরি করবেন। ভাবুন, দেখুন, শুনুন, বুঝুন তারপর সিদ্ধান্ত নিন আপনি কি করবেন এবং কেন করবেন এবং কিভাবে করবেন?</h4>
+                        <h2>ব্লগ বা ওয়েবসাইটের বিষয় নির্বাচন করার ক্ষেত্রে কিছু টিপসঃ</h2>
+                        <p>1. আপনি ভাল জানেন এবং আপনার ইন্টারেস্ট আছে এমন যে কোন বিষয়েই আপনি ওয়েবসাইট তৈরি করতে পারেন। আপনি যেটাই জানুন না কেন সেটা নিয়েই শুরু করে দিতে পারেন লিখালিখি। শেয়ার করুন আপনার নিজের জ্ঞান। সেটা কোন বিষয় সেটা কোন ব্যাপার না, কোয়ালিটি থাকলে সব বিষয়েই সাইট করা যায়। এমন অনেকেই আছেন যারা তাদের সখের অনেক কিছু নিয়ে ওয়েবসাইট তৈরি করেও সেখান থেকে প্রতি মাসে কয়েক হাজার ডলার আয় করছেন।</p>
+                        <p>2. আপনি আপনার পড়াশুনার বিষয়টিকে ওয়েবসাইট বানানোর কাজে লাগাতে পারেন। যেমন ধরুন, আপনি একজন বিজনেস ম্যানেজম্যান্ট এর ছাত্র। তাহলে আপনি চাইলে বিজনেস সংক্রান্ত বিষয় নিয়ে নিয়মিত লেখালেখির অভ্যাস করতে পারেন। আপনার সাইটে প্রতিদিন, সম্ভব না হলে প্রতি সপ্তাহে অন্তত একটি করে পোস্ট লিখুন। চেস্টা করুন যেটা সেটা ইন্টারেস্টিং হয় এবং মানুষ বা ভিজিটর যাতে সেটা পড়ে নতুন কিছু জানতে পারে। এই ভাবে লিখতে থাকলে দেখবেন একসময় আপনি পার্মানেন্ট ভিজিটর পেয়ে যাবে যারা আপনার সাইট নিয়মিত ভিজিট করবে।</p>
+                        <p>3. তবে এই ক্ষেত্রে, কখনো হেজিটেশনে ভুগবেন না যে কি লিখব, কেমন হবে, কেউ পছন্দ করবে কিনা? আপনি সেটাই লিখবেন যেটা আপনি জানেন। লিখতে লিখতেই এক সময় আপনি আপনার ব্লগকে জনপ্রিয় করে তুলতে পারবেন। আপনি যত লিখবেন আপনার লিখা তত আকর্ষণীয় হয়ে উঠতে থাকবে। একবার ব্লগ জনপ্রিয় হয়ে উঠলে সেখানে আপনি অন্যান্য লেখকদের ও আমন্ত্রণ করতে পারেন আপনার ব্লগ লিখার জন্য। এবং অন্যান্য ব্লগাররাও যদি আপনার ব্লগে লিখা শুরু করে দেয় তাহলেই তো কেল্লাফতে ! এরপর আপানাকে আর আশা করি পেছনে ফিরতে হবে না।</p>
+                        <h4>এই ভাবে যদি একটি সাইট কে দাড় করিয়ে ফেলতে পারেন তাহলে এখানে বিজ্ঞাপন সহ উপরোল্লেখিত উপায় সমূহ অবলম্বন করে আপনি আপনার ওয়েবসাইটকে পার্মানেন্ট আয়ের উৎস হিসেবে গড়ে তুলতে পারবেন।</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog details part end-->
+
+    <!--Footer part start-->
+
+    <footer id="footer_part">
+        <div class="container">
+            <div class="row footer_top_wrap">
+                <div class="col-lg-4">
+                    <div class="footer_left wow slideInLeft" data-wow-duration="1s">
+                        <img src="img/logo.png" alt="not found" class="img-fluid">
+                        <h2>ওয়েব ট্রেনিং ইনস্টিটিউট</h2>
+                        <p>ওয়েব ট্রেনিং ইনস্টিটিউট বাংলাদেশের অন্যতম একটি অনলাইন কোচিং সেন্টার। আমাদের অনলাইন এবং অফলাইন কোর্সগুলো দেখুন, ব্লগ পোস্ট গুলো পড়ুন এবং নিজেকে একজন সফল ওয়েব ডিজাইনার এবং ওয়েব ডেভেলপার হিসেবে গড়ে তুলুন। আন্তর্জাতিক মানের ওয়েব ডিজাইনার এবং ডেভেলপার তৈরি করা হচ্ছে আমাদের একমাত্র উদ্দেশ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_middle wow slideInDown" data-wow-duration="1.5s">
+                        <h3>ওয়েব ট্রেনিং লিংকস</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/webtraininginstitute360" target="_blank">ফেইসবুক পেইজ</a></li>
+                            <li><a href="https://www.facebook.com/groups/websecrectgroup" target="_blank">ফেইসবুক গ্রুপ</a></li>
+                            <li><a href="https://www.youtube.com/webtraininginstitute" target="_blank">ইউটিউব চ্যানেল</a></li>
+                            <li><a href="free_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ফ্রী কোর্স</a></li>
+                            <li><a href="premium_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট প্রিমিয়াম কোর্স</a></li>
+                            <li><a href="blog.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ব্লগ</a></li>
+                            <li><a href="webdesign_service.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট সার্ভিস</a></li>
+                            <li><a href="contact.html" target="_blank">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_right wow slideInRight" data-wow-duration="1s">
+                        <h3>যোগাযোগ করুন</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> মৌচাক অফিসঃ মাহেরা কটেজ (UCC গলি), ৮০ সিদ্ধেশ্বরী রোড, ঢাকা-১২১৭। (রস মিষ্টান্ন ভান্ডার এর পাশের গলি)</p>
+                        <p><i class="fas fa-phone-square"></i> 01868752464, 01318948051</p>
+                        <p><i class="fas fa-envelope"></i> info.webtraininginstitute@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.webtraininginstitute.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom_wrap">
+                <div class="col-lg-12">
+                    <div class="footer_bottom_text text-center">
+                        <p>Copyright <span>&copy;</span> 2019 Web Training Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer part end-->
+
+    <!--Scroll to top start-->
+
+    <div class="scroll_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--Scroll to top end-->
+
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

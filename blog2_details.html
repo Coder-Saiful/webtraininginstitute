@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ব্লগ ডিটেইলস</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Menu part start-->
+
+    <header id="header_part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="not found" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free_course.html">ফ্রি কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="premium_course.html">প্রিমিয়াম কোর্স</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="blog.html">ব্লগসমূহ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                সার্ভিস সমূহ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="webdesign_service.html">ওয়েবসাইট ডিজাইন</a>
+                                <a class="dropdown-item" href="webdevelopment_service.html">ওয়েবসাইট ডেভেলপমেন্ট</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question.html">প্রশ্নউত্তর</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html">শর্তাবলী</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn student_feedback" data-toggle="modal" data-target="#exampleModal">
+                                Student Feedback
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add Your Feedback</h5>
+                                            <p>আমদের ফ্রী এবং প্রিমিয়াম ভিডিও কোর্সগুলো আপনাদের কাছে কেমন লাগছে সেই সম্পর্কে ফিডব্যাক দিন...</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="">Your Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Picture</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Feedback <span>*</span></label>
+                                                    <textarea rows="6" placeholder="ওয়েব ট্রেনিং ইনস্টিটিউট সম্পর্কে এখানে লেখুন" class="form-control"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn student_feedback_close_button" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn student_feedback_submit_button">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Menu part end-->
+
+    <!--New banner start-->
+
+    <section id="new_banner_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_banner_text text-center">
+                        <h2>ব্লগ ডিটেইলস</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New banner end-->
+
+    <!--Blog details part start-->
+
+    <section id="blog_details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_head text-center">
+                        <img src="img/blog2.jpg" alt="not found" class="img-fluid">
+                        <h5>15-December-2019, <span style="font-weight:400;">By-</span> <span style="font-weight: 400;color:orange;">Rajiur Rahman</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_bottom">
+                        <h4>ওয়েব ডিজাইন হচ্ছে একটি ওয়েব সাইটের জন্য বাহ্যিক অবকাঠামো তৈরি করা । ওয়েবসাইট দেখতে কেমন হবে অথবা এর সাধারণ রূপ কেমন হবে তা নির্ধারণ করা । ওয়েব ডিজাইনার দের কাজ হচ্ছে আমরা নিয়মিত যে ওয়েবসাইট গুলো ভিজিট করে থাকি ক্লাইন্ট এর চাহিদা অনুযায়ী সেই রকম ওয়েবসাইট তৈরি করা ।</h4>
+                        <h2>ওয়েব ডিজাইন কেন শিখবেন ?</h2>
+                        <h4>ইন্টারনেটে যে কোন ব্যবসা করতে গেলে সর্বপ্রথম যেটির প্রয়োজন হয় সেটি হচ্ছে ওয়েবসাইট। আর দিন দিন প্রতিটি ব্যবসাই ইন্টারনেটমুখী হয়ে উঠছে। আবার এই ওয়েবসাইট গুলোর মধ্যে প্রায় ৭০% ওয়েবসাইট ই প্রোফেশনাল ওয়েব ডিজাইনার দিয়ে তৈরি করানো হয়ে থাকে।তার মানে একটু ভাবুন তো ইন্টারনেটে যে ব্যবসাই আসুক না কেন যেহেতু ওয়েবসাইট তৈরি করা লাগবে, এজন্য একজন প্রোফেশনাল ওয়েব ডিজাইনারের প্রয়োজন হবেই হবে।এতে করে খুব সহজে বোঝা যাচ্ছে ওয়েব ডিজাইন কাজের ব্যপক চাহিদা রয়েছে। আরো আশার কথা হচ্ছে, যে হারে নতুন নতুন ব্যবসা অনলাইনে যুক্ত হচ্ছে ওই হারে ওয়েব ডিজাইনার তৈরি হচ্ছে না, এতে করে মার্কেটে প্রতিনিয়ত নতুন নতুন ওয়েব ডিজাইনার এবং ডেভেলপারের ঘাটতি বেড়েই চলেছে।আর যেহেতু এই কাজটির চাহিদাও আছে আবার কম্পিটিশন কিছুটা তুলনামূলক কম এজন্য আমার সাজেশন হচ্ছে- এটাই শিখুন। এটি-ই হবে নতুনদের জন্য একটা চমৎকার স্টার্টিং পয়েন্ট। ইন্টারন্যাশনাল অনলাইন মার্কেটপ্লেসে ওয়েব ডিজাইনার দের চাহিদা অনেক । আপনি যদি ওয়েব ডিজাইন ভালো করে শিখেন এবং ক্লাইন্ট এর জন্য যখন ওয়েবসাইট তৈরি করবেন প্রতিটি ওয়েবসাইট ডিজাইন করার জন্য ১৫০ ডলার থেকে শুরু করে ১০০০ ডলার পর্যন্ত আপনি পেতে পারেন । প্রোজেক্ট এর প্রাইস কম বা বেশী হতে পারে এটা সম্পূর্ণ নির্ভর করবে ক্লাইন্ট এর চাহিদা এবং কাজটি করতে কত দিন সময় লাগবে তার উপর ভিত্তি করে ।</h4>
+                        <h2>ওয়েবসাইট ডিজাইন করার জন্য কি শিখবো ?</h2>
+                        <h4>আপনি যদি ওয়েবসাইট ডিজাইন শিখতে চান তাহলে প্রথমে যেটা লাগবে সেটা হচ্ছে ধৈর্য । আপনাকে নিয়মিত বাসায় চর্চা করতে হবে এবং সঠিকভাবে ধৈর্য ধরে নিয়মিত শিখে যেতে হবে । একটি ওয়েবসাইট ডিজাইন করার জন্য নিচের বিষয়গুলোর উপর অবশ্যই আপনার জ্ঞান থাকতে হবে ।</h4>
+                        <p>১) এইচটিএমএল (HTML) – একটি ওয়েবসাইট এর জন্য প্রথমে মার্কআপ তৈরি করতে হয় । প্রথমেই আপনাকে এইচটিএমএল শিখতে হবে ওয়েবসাইট এর মার্কআপ তৈরি করার জন্য । আমাদের ইউটিউব চ্যানেলে এইচটিএমএল এর উপরে একটি সিরিজ টিউটোরিয়াল রয়েছে । আপনি যদি টিউটোরিয়াল গুলো দেখেন এবং নিয়মিত প্র্যাকটিস করেন তাহলে আপনি এইচটিএমএল এর মাধ্যমে যে কোন ওয়েবসাইট এর মার্কআপ ডিজাইন করতে পারবেন ।</p>
+                        <h4><a href="html_course.html" target="_blank">এইচটিএমএল বাংলা ভিডিও টিউটোরিয়াল প্লেলিস্ট (ফ্রি কোর্স)</a></h4>
+                        <p>২) সিএসএস (CSS) – সিএসএস এর মাধ্যমে একটি ওয়েবসাইটকে স্টাইল করা হয় । একটি ওয়েবসাইট এর কালার , ফন্ট ইত্যাদি সেট করতে হবে সিএসএস এর মাধ্যমে । এইচটিএমএল এবং সিএসএস যদি আপনি শিখে ফেলেন তাহলে আপনি খুব সহজেই স্ট্যাটিক ওয়েবসাইট তৈরি করতে পারবেন ।</p>
+                        <h4><a href="css_course.html" target="_blank">সিএসএস বাংলা ভিডিও টিউটোরিয়াল প্লেলিস্ট (ফ্রি কোর্স)</a></h4>
+                        <p>৩) জাভাস্ক্রিপ্ট (JavaScript) অথবা জেকুয়েরি (jQuery) – আপনারা যখন ওয়েবসাইটে ভিসিট করেন হয়তো দেখেছেন বিভিন্ন স্লাইডার যুক্ত করা থাকে এবং অনেক ধরনের অ্যানিমেশন থাকে যেমন লেখা বাম দিক থেকে , উপর থেকে , নিচ থেকে বিভিন্ন ভাবে আমাদের সামনে চলে আসে । এই কাজগুলো করা হয় জাভাস্ক্রিপ্ট এর মাধ্যমে । জাভাস্ক্রিপ্ট একটি প্রোগ্রামিং ল্যাঙ্গুয়েজ এবং এটি শিখতে যথেষ্ট সময় লাগবে । আপনি যদি দ্রুত শিখতে চান তাহলে জাভাস্ক্রিপ্ট এর পরিবর্তে আপনি জেকুয়েরি শিখতে পারেন । জেকুয়েরি হচ্ছে জাভাস্ক্রিপ্ট এর একটি লাইব্রেরি । অসংখ্য জেকুয়েরি প্লাগিন রয়েছে যেগুলো ব্যবহার করে আপনি খুব সহজে আপনার ওয়েবসাইটে স্লাইডার, অ্যানিমেশন ইত্যাদি ফিচার যুক্ত করতে পারবেন ।</p>
+                        <h4><a href="javascript_course.html" target="_blank">জাভাস্ক্রিপ্ট বাংলা ভিডিও টিউটোরিয়াল প্লেলিস্ট (ফ্রি কোর্স)</a></h4>
+                        <p>৪)রেস্পন্সিভ ওয়েব ডিজাইন - বর্তমান সময়েসবচাইতে জনপ্রিয় ডিভাইস এর নাম স্মার্টফোন। স্মার্টফোন এর জনপ্রিয়তার সাথে সাথে মোবাইল থেকে ওয়েবসাইটে ভিজিটের সংখ্যা দ্রুত বাড়ছে। গবেষনায় দেখা যায় ২০১৮ সালে মোট ওয়েবসাইট ভিজিট এর মধ্যে ৫২ শতাংশ এর বেশী স্মার্টেফোন ব্যবহারকারী। স্মার্টফোন এর এই দারুন জনপ্রিয়তা সার্চ ইন্জিনগুলোকে অনেকটা বাধ্য করছে ওয়েবসাইট এর মোবাইল ভিউকে গুরুত্ব দেয়ার জন্য। Google এর সর্বশেষ আপডেটে ওয়েবসাইট এর মোবাইল ভার্সনকে গুরুত্ব দেয়া হয়েছে এবং মোবাইল সার্চ ইন্জিন রেজাল্ট পেজে(SERP) যে ওয়েবসাইটগুলোর মোবাইল ভার্সন আছে শুধু সেগুলোকেই স্থান দেয়া হচ্ছে। কিন্তু কিভাবে ওয়েবসাইট এর মোবাইল বা ট্যাব ভার্সন তৈরী করা সম্ভব? রেস্পন্সিভ ওয়েব ডিজাইন এর মজাটাই এখানে। রেস্পন্সিভ ওয়েব ডিজাইন এর মাধ্যমে একটি ওয়েবসাইট মোবাইল বা অন্যান্য ডিভাইস এর জন্য অপটিমাইজ করা হয় যেন ওয়েবসাইটটি বিভন্ন ডিভাইস এ সুন্দর ভাবে প্রদর্শিত হয়। এখন আপনি প্রশ্ন করতে পারেন, ওয়েবসাইট এর ডিজাইন যদি রেস্পন্সিভ না হয় তাহলে কি ওয়েবসাইট মোবাইল থেকে দেখা যাবে না? অবশ্যই দেখা যাবে, কিন্তু সেক্ষেত্রে ওয়েবসাইট এর বিভিন্ন অংশ বিছিন্ন দেখাবে এবং ভিজিটর ওয়েবসাইট এর ছবি বা লেখা ঠিকমত দেখতে পারবে না। ওয়েবসাইটটি লোড হতেও বেশী সময় লাগবে। ফলে ভিজিটর দ্রুত আপনার ওয়েবসাইট থেকে বের হয়ে যাবে এবং আপনার ওয়েবসাইটটির বাউন্সরেট বাড়বে। বাউন্সরেট বাড়লে সার্চ ইন্জিন ধরেই নেবে ওয়েবসাইটটি রিলেভেন্ট নাহ। এবং আপনার সাধের ওয়েবসাইটটি তার র‌্যাংক হারাবে। তাই ওয়েবসাইট তৈরীর সময় সম্ভাব্য সব ডিভাইস এবং রেজ্যুলেশন এর উপর ভিত্তি করে ওয়েবসাইট ডিজাইন ও ডেভেলপমেন্ট করতে হবে। আর এটাই হল রেস্পন্সিভ ওয়েব ডিজাইন এর মূল বিষয়।দ্রুত পরিবর্তনশীল এই বিশ্বে টিকে থাকতে হলে প্রয়োজন বিশেষ যোগ্যতা। তাই আপনার ওয়েবসাইটটিকে টিকিয়ে রাখতে চাইলে অবশ্যই বিভিন্ন ডিভাইস এর জন্য রেস্পন্সিভ করে তৈরী করতে হবে। ইন্টারনেটে রেস্পন্সিভওয়েব ডিজাইন সম্পর্কিত হরেক রকম টুল ও রিসোর্স পাওয়া যায়। রেস্পন্সিভ ওয়েব ডিজাইন নিয়ে আমরা নিয়মিত অনক্যাম্পাস ও লাইভ ওয়ার্কশপ এর আয়োজন করে থাকি যেখানে বিষয়টি নিয়ে নিয়মিত আলোচনা করা হয়। আপনি যদি আরও বিস্তারিত জানতে চান তাহলে আমাদের প্রিমিয়াম ওয়েব ডিজাইন সাকসেস কোর্স টি কিনতে পারেন, শেখানে সবকিছু হাতে হাতে ধরে ধরে শিখিয়ে দেওয়া হয়েছে।</p>
+                        <p>৫) বুটস্ট্রাপ (Bootstrap) – রেস্পন্সিভ ওয়েবসাইট ডিজাইন করার জন্য বুটস্ট্রাপ হচ্ছে সবচেয়ে জনপ্রিয় সিএসএস ফ্রেমওয়ার্ক । আপনি যদি বুটস্ট্রাপ শিখেন তাহলে খুব অল্প সময়ের মাঝে আপনি একটি রেস্পন্সিভ ওয়েবসাইট ডিজাইন করতে পারবেন ।</p>
+                        <p>৬) পিএসডি টু এইচটিএমএল কনভার্সন (PSD TO HTML) – অনলাইন মার্কেটপ্লেসে পিএসডি টু এইচটিএমএল কনভার্সন এর কাজের প্রচুর চাহিদা রয়েছে । পিএসডি ডিজাইন করা ওয়েব ডিজাইনার এর কাজ না এই কাজটি করে থাকে গ্রাফিক্স ডিজাইনার । ক্লাইন্ট আপনাকে একটি পিএসডি ফাইল দিবে এবং সেই ফাইল এর ডিজাইন দেখে আপনাকে কোডিং করে ঠিক পিএসডি এর মতো একটি ওয়েবসাইট তৈরি করতে হবে ।</p>
+                        <h4 style="color:darkorange;">এর বাইরে আরও অনেক কিছু শেখার আছে যেগুলো আমাদের প্রিমিয়াম কোর্সটিতে সম্পূর্ণভাবে দেওয়া আছে, আপনি চাইলে সেই কোর্সটি নিয়ে একজন প্রফেশনাল ওয়েব ডিজাইনের যা যা শেখা দরকার তার সবকিছু শিখে নিতে পারবেন।</h4>
+                        <h4><a href="premium_course.html" target="_blank">( প্রিমিয়াম কোর্সটি সম্পর্কে জানতে এখানে ক্লিক করুন )</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog details part end-->
+
+    <!--Footer part start-->
+
+    <footer id="footer_part">
+        <div class="container">
+            <div class="row footer_top_wrap">
+                <div class="col-lg-4">
+                    <div class="footer_left wow slideInLeft" data-wow-duration="1s">
+                        <img src="img/logo.png" alt="not found" class="img-fluid">
+                        <h2>ওয়েব ট্রেনিং ইনস্টিটিউট</h2>
+                        <p>ওয়েব ট্রেনিং ইনস্টিটিউট বাংলাদেশের অন্যতম একটি অনলাইন কোচিং সেন্টার। আমাদের অনলাইন এবং অফলাইন কোর্সগুলো দেখুন, ব্লগ পোস্ট গুলো পড়ুন এবং নিজেকে একজন সফল ওয়েব ডিজাইনার এবং ওয়েব ডেভেলপার হিসেবে গড়ে তুলুন। আন্তর্জাতিক মানের ওয়েব ডিজাইনার এবং ডেভেলপার তৈরি করা হচ্ছে আমাদের একমাত্র উদ্দেশ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_middle wow slideInDown" data-wow-duration="1.5s">
+                        <h3>ওয়েব ট্রেনিং লিংকস</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/webtraininginstitute360" target="_blank">ফেইসবুক পেইজ</a></li>
+                            <li><a href="https://www.facebook.com/groups/websecrectgroup" target="_blank">ফেইসবুক গ্রুপ</a></li>
+                            <li><a href="https://www.youtube.com/webtraininginstitute" target="_blank">ইউটিউব চ্যানেল</a></li>
+                            <li><a href="free_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ফ্রী কোর্স</a></li>
+                            <li><a href="premium_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট প্রিমিয়াম কোর্স</a></li>
+                            <li><a href="blog.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ব্লগ</a></li>
+                            <li><a href="webdesign_service.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট সার্ভিস</a></li>
+                            <li><a href="contact.html" target="_blank">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_right wow slideInRight" data-wow-duration="1s">
+                        <h3>যোগাযোগ করুন</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> মৌচাক অফিসঃ মাহেরা কটেজ (UCC গলি), ৮০ সিদ্ধেশ্বরী রোড, ঢাকা-১২১৭। (রস মিষ্টান্ন ভান্ডার এর পাশের গলি)</p>
+                        <p><i class="fas fa-phone-square"></i> 01868752464, 01318948051</p>
+                        <p><i class="fas fa-envelope"></i> info.webtraininginstitute@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.webtraininginstitute.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom_wrap">
+                <div class="col-lg-12">
+                    <div class="footer_bottom_text text-center">
+                        <p>Copyright <span>&copy;</span> 2019 Web Training Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer part end-->
+
+    <!--Scroll to top start-->
+
+    <div class="scroll_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--Scroll to top end-->
+
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

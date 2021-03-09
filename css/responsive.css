@@ -1,0 +1,649 @@
+
+
+
+@media(max-width: 399.98px){
+    
+    .banner_1 {
+        padding-top: 215px !important;
+    }
+    .banner_2{
+        padding-top:200px !important;
+    }
+    .banner_3{
+        padding-top:175px !important;
+    }
+    .banner_4{
+        padding-top:175px !important;
+    }
+    .banner_5{
+        padding-top:122px !important;
+    }
+    .blog_slider_arrow_left {
+        top: 10% !important;
+        right: 0 !important;
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 18px !important;
+        line-height: 34px !important;
+    }
+    .blog_slider_arrow_right {
+        top: 22% !important;
+        right: 0 !important;
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 18px !important;
+        line-height: 34px !important;
+    }
+    .free_course_3 .all_free_course_text p {
+        margin-bottom: 65px !important;
+    }
+    
+}
+
+
+@media(max-width: 419.98px){
+    .contact_left_details {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        margin-bottom: 30px !important;
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .contact_left_icon i{
+        margin-bottom: 15px !important;
+    }
+    .contact_left h2, .contact_right h2, .contact_right h4{
+        text-align: center !important;
+    }
+    
+}
+
+
+
+@media(max-width: 482.98px){
+    
+    .contact_bottom_text h5 a{
+        margin-top: 15px !important;
+    }
+    .webdesign_course_details .card-body iframe {
+        width: 100% !important;
+        height: 217px !important;
+    }
+    .terms_details iframe {
+        width: 100% !important;
+        height: 174px !important;
+    }
+    .all_free_video .card-body iframe {
+        width: 100% !important;
+        height: 217px !important;
+    }
+    
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media(max-width: 575.98px) { 
+
+    .navbar{
+        padding:0 15px;
+    }
+    .navbar-light .navbar-toggler {
+        color: white;
+        border: 1px solid white;
+        border-radius: 0;
+        font-size: 20px;
+    }
+    .navbar-nav {
+        background: #026A6F;
+        padding:5px 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+        text-align: center;
+    }
+    .student_feedback{
+        width:100%;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item{
+        text-align:center;
+    }
+    .banner_text h1 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .banner_1 a,
+    .banner_2 a,
+    .banner_3 a,
+    .banner_4 a,
+    .banner_5 a {
+        font-size: 14px;
+        padding: 9px 5px;
+    }
+    .banner_1 i,
+    .banner_2 i,
+    .banner_3 i,
+    .banner_4 i,
+    .banner_5 i {
+        font-size: 20px;
+    }
+    .banner_slider_arrow_left{
+        font-size:30px;
+    }
+    .banner_slider_arrow_right{
+        font-size:30px;
+    }
+    .banner-slider > .slick-dots{
+        bottom:25px;
+        width: 100%;
+        text-align: center;
+    }
+    #about_part {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .about_image img {
+        height: auto;
+    }
+    .about_text .section_title h2 {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .about_text a {
+        display: block;
+        text-align: center;
+    }
+    #what_we_do {
+        ;
+        padding-bottom: 60px;
+    }
+    .what_info {
+        margin-bottom: 30px;
+    }
+    #video_part {
+        padding: 110px 0;
+    }
+    .video_head h2 {
+        font-size: 25px;
+    }
+    .video_head h4 {
+        font-size: 20px;
+    }
+    #free_course_part {
+        padding-top: 55px;
+        padding-bottom: 40px;
+    }
+    .free_course_text p {
+        height: 162px;
+        overflow: hidden;
+    }
+    #javascript > .free_course_details > .free_course_text p {
+        margin-bottom: 85px !important;
+    }
+    #css > .free_course_details > .free_course_text p {
+        margin-bottom: 85px !important;
+    }
+    .free_course_slider > .slick-dots {
+        top: 25px;
+    }
+    .premium_course_details .web_development .premium_course_text ul {
+        margin-bottom: 18px;
+    }
+    .web_design .premium_course_text {
+        padding-bottom: 6px;
+    }
+    .premium_course_slider > .slick-dots {
+        opacity: 1;
+        margin-bottom: 21px;
+    }
+    #blog_part .slick-slider img {
+        display: unset;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .blog_text {
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-slider .slick-list {
+        padding-bottom: 17px;
+    }
+    #blog_part {
+        padding-bottom: 40px;
+    }
+    .blog_slider_arrow_left {
+        top: 14%;
+        right: 0;
+    }
+    .blog_slider_arrow_right {
+        top: 28%;
+        right: 0;
+    }
+    .blog_slider_arrow_left:hover,
+    .blog_slider_arrow_right:hover{
+        border-color:white;
+        color:white;
+    }
+    .student_image{
+        margin-bottom:20px;
+    }
+    .footer_left {
+        margin-bottom: 35px;
+    }
+    .new_banner_text h2{
+        font-size:30px !important;
+    }
+    #about_content {
+        padding: 45px 0px 30px 0px;
+    }
+    #about_content .about_text h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .all_free_course_details , .premium_course_2{
+        margin-top: 35px;
+    }
+    .all_free_course_image img, .all_premium_course_image img, .service_image img{
+        height: auto;
+    }
+    #all_free_course,
+    #all_premium_course,
+    #all_blog_part,
+    #webdesign_service,
+    #question_part,
+    #terms_part {
+        padding: 45px 0px 60px 0px;
+    }
+    .all_free_course_content {
+        padding-top: 15px;
+    }
+    .section_title h2{
+        font-size: 25px;
+    }
+    .webdesign_course_details .card-body iframe {
+        width: 100%;
+        height: 268px;
+    }
+    .webdesign_course_details > .accordion > .card > .card-header > h2 > button {
+        font-size: 18px;
+    }
+    .webdesign_premium_course_head h2{
+        font-size: 27px;
+    }
+    .premium_course_order_head video{
+        width:100%;
+        height:auto;
+    }
+    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6, .blog7, .blog8, .blog9, .blog10, .blog11{
+        padding-bottom:30px;
+    }
+    .all_question_and_answer > #accordion > .card > .card-header > h5 > button{
+        font-size: 18px;
+    }
+    .terms_details h2{
+        font-size: 25px;
+    }
+    .terms_details iframe {
+        width: 100%;
+        height: 272px;
+    }
+    .contact_right h2 {
+        margin-top: 30px;
+    }
+    #contact_part {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service1, .service2, .service3, .service4, .service5, .service6, .service7, .service8, .service9, .service10, .service11{
+        margin-bottom: 30px;
+    }
+    #blog_details {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+    .blog_details_bottom h2{
+        font-size: 25px;
+    }
+    #all_free_video_details_part {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .all_free_video > .accordion > .card > .card-header > h2 > button{
+        font-size: 18px;
+    }
+    .all_free_video .card-body iframe {
+        width: 100%;
+        height: 270px;
+    }
+    
+}
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px) and (max-width: 767.98px) { 
+
+    .navbar-light .navbar-toggler {
+        color: white;
+        border: 1px solid white;
+        border-radius: 0;
+        font-size: 20px;
+    }
+    .navbar-nav {
+        background: #026A6F;
+        padding:5px 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+        text-align: center;
+    }
+    .student_feedback{
+        width:100%;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item{
+        text-align:center;
+    }
+    .banner_text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner_1 a,
+    .banner_2 a,
+    .banner_3 a,
+    .banner_4 a,
+    .banner_5 a {
+        font-size: 15px;
+        padding: 10px 6px;
+    }
+    #about_part {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .about_image img {
+        height: auto;
+    }
+    .about_text .section_title h2 , #about_content .about_text h2 {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .about_text a {
+        display: block;
+        text-align: center;
+    }
+    .what_info {
+        margin-bottom: 30px;
+    }
+    #video_part {
+        padding: 110px 0;
+    }
+    #free_course_part {
+        padding-top: 55px;
+        padding-bottom: 20px;
+    }
+    #css > .free_course_details > .free_course_text p {
+        margin-bottom: 85px !important;
+    }
+    .free_course_slider > .slick-dots {
+        top: 0px;
+    }
+    .premium_course_details .web_development .premium_course_text ul {
+        margin-bottom: 41px;
+    }
+    .premium_course_slider > .slick-dots {
+        opacity: 1;
+        margin-bottom: 21px;
+    }
+    #blog_part .slick-slider img {
+        display: unset;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .blog_text {
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-slider .slick-list {
+        padding-bottom: 17px;
+    }
+    #blog_part {
+        padding-bottom: 40px;
+    }
+    .blog_slider_arrow_left {
+        top: 14%;
+    }
+    .blog_slider_arrow_right {
+        top: 28%;
+    }
+    .blog_slider_arrow_left:hover,
+    .blog_slider_arrow_right:hover{
+        border-color:white;
+        color:white;
+    }
+    .student_image{
+        margin-bottom:20px;
+    }
+    .footer_left {
+        margin-bottom: 35px;
+    }
+    .new_banner_text h2{
+        font-size:35px !important;
+    }
+    #about_content {
+        padding: 45px 0px 30px 0px;
+    }
+    .all_free_course_details , .premium_course_2{
+        margin-top: 35px;
+    }
+    .all_free_course_image img, .all_premium_course_image img, .service_image img{
+        height: auto;
+    }
+    #all_free_course,
+    #all_premium_course,
+    #all_blog_part,
+    #webdesign_service,
+    #question_part,
+    #terms_part {
+        padding: 45px 0px 60px 0px;
+    }
+    .all_free_course_content {
+        padding-top: 15px;
+    }
+    .webdesign_course_details .card-body iframe {
+        width: 100%;
+        height: 248px;
+    }
+    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6, .blog7, .blog8, .blog9, .blog10, .blog11{
+        padding-bottom:30px;
+    }
+    .terms_details iframe {
+        width: 100%;
+        height: 253px;
+    }
+    .contact_right h2 {
+        margin-top: 30px;
+    }
+    #contact_part {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service1, .service2, .service3, .service4, .service5, .service6, .service7, .service8, .service9, .service10, .service11{
+        margin-bottom: 30px;
+    }
+    #blog_details {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+    .all_free_video .card-body iframe {
+        width: 100%;
+        height: 250px;
+    }
+    #all_free_video_details_part {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+}
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px) and (max-width: 991.98px) { 
+
+    .navbar-light .navbar-toggler {
+        color: white;
+        border: 1px solid white;
+        border-radius: 0;
+        font-size: 20px;
+    }
+    .navbar-nav {
+        background: #026A6F;
+        padding:5px 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+        text-align: center;
+    }
+    .student_feedback{
+        width:100%;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item{
+        text-align:center;
+    }
+    .banner_text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about_text .section_title h2 , #about_content .about_text h2{
+        text-align: center;
+        margin-top: 35px;
+    }
+    .what_info {
+        margin-bottom: 30px;
+    }
+    #free_course_part {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .free_course_image img {
+        width: 100%;
+    }
+    #css > .free_course_details > .free_course_text p {
+        margin-bottom: 85px !important;
+    }
+    .free_course_slider > .slick-dots {
+        top: 0px;
+    }
+    .premium_course_slider>.slick-dots{
+        opacity: 1;
+    }
+    .premium_course_slider {
+        margin-bottom: 5px;
+    }
+    .premium_course_details .web_development .premium_course_text ul {
+        margin-bottom: 41px;
+    }
+    #blog_part .slick-slider img {
+        display: unset;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .blog_text {
+        padding-top: 25px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .blog-slider .slick-list {
+        padding-bottom: 17px;
+    }
+    .student_image{
+        margin-bottom:20px;
+    }
+    .blog_slider_arrow_left {
+        top: 15%;
+    }
+    .blog_slider_arrow_right {
+        top: 32%;
+    }
+    .footer_left {
+        margin-bottom: 35px;
+    }
+    .all_free_course_details , .premium_course_2{
+        margin-top: 35px;
+    }
+    .all_free_course_image img, .all_premium_course_image img, .service_image img{
+        height: auto;
+    }
+    .blog1, .blog2, .blog3, .blog4, .blog5, .blog6, .blog7, .blog8, .blog9, .blog10{
+        padding-bottom:30px;
+    }
+    .blog4 .all_free_course_details .all_free_course_text p {
+        margin-bottom: 127px;
+    }
+    .contact_right h2 {
+        margin-top: 30px;
+    }
+    .service1, .service2, .service3, .service4, .service5, .service6, .service7, .service8, .service9, .service10, .service11{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media(min-width: 992px) and (max-width: 1199.98px) { 
+
+    .blog-slider{
+        height:241px;
+    }
+    #html>.free_course_details>.free_course_text p{
+        margin-bottom:111px !important;
+    }
+    .blog_slider_arrow_left{
+        top:20%;
+    }
+    .blog_slider_arrow_right{
+        top:43%;
+    }
+    .all_free_course_text p {
+        margin-bottom: 70px;
+    }
+    .blog3 .all_free_course_details .all_free_course_text p {
+        height: 183px;
+    }
+
+}
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media(min-width: 1200px) { 
+
+    
+
+}
+
+
