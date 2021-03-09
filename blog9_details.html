@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ব্লগ ডিটেইলস</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Menu part start-->
+
+    <header id="header_part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="not found" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free_course.html">ফ্রি কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="premium_course.html">প্রিমিয়াম কোর্স</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="blog.html">ব্লগসমূহ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                সার্ভিস সমূহ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="webdesign_service.html">ওয়েবসাইট ডিজাইন</a>
+                                <a class="dropdown-item" href="webdevelopment_service.html">ওয়েবসাইট ডেভেলপমেন্ট</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question.html">প্রশ্নউত্তর</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html">শর্তাবলী</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn student_feedback" data-toggle="modal" data-target="#exampleModal">
+                                Student Feedback
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add Your Feedback</h5>
+                                            <p>আমদের ফ্রী এবং প্রিমিয়াম ভিডিও কোর্সগুলো আপনাদের কাছে কেমন লাগছে সেই সম্পর্কে ফিডব্যাক দিন...</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="">Your Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Picture</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Feedback <span>*</span></label>
+                                                    <textarea rows="6" placeholder="ওয়েব ট্রেনিং ইনস্টিটিউট সম্পর্কে এখানে লেখুন" class="form-control"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn student_feedback_close_button" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn student_feedback_submit_button">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Menu part end-->
+
+    <!--New banner start-->
+
+    <section id="new_banner_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_banner_text text-center">
+                        <h2>ব্লগ ডিটেইলস</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New banner end-->
+
+    <!--Blog details part start-->
+
+    <section id="blog_details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_head text-center">
+                        <img src="img/blog9.jpg" alt="not found" class="img-fluid">
+                        <h5>17-August-2019, <span style="font-weight:400;">By-</span> <span style="font-weight: 400;color:orange;">Rajiur Rahman</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_bottom">
+                        <h4>অসহ্য জ্যাম পার হয়ে ৯ টা ৫টা অফিস কিংবা অফিস পলিটিক্স একটি বিরক্তিকর চাকুরীকে অসহ্য তে পরিনত করতে পারে। অফিস এর বাঁধা ধরা নিয়ম এর বাইরে যদি আপনি নিজেই কিছু করতে চান তাহলে ফ্রিল্যান্সিং হতে পারে আপনার জন্য সবচাইতে সেরা পছন্দ। কিন্ত ফ্রিল্যান্সিং কি শুধু মাত্র আপনার নিজের জন্য কিছু করার স্বাধীনতাটুকু দিবে নাকি আরও অনেক কিছু?</h4>
+                        <img src="img/freelancer-vs-fulltime-1103x575.jpg" alt="not found" class="img-fluid" width="100%">
+                        <p>একজন ফ্রিল্যান্সার তার কাজের ক্ষেত্রে স্বাধীন। তারমানে এই না যে কাজ না করলেও চলবে। একটি অফিসের বদলে আপনার কাজ এর স্থান হবে আপনার ল্যাপটপ বা কম্পিউটার। নির্দিষ্ট কারও অধীনে কাজ এর বদলে আপনি কাজ করবেন বিভিন্ন ক্লায়েন্ট এর জন্য। একজন ফ্রিল্যান্সার তার পারিশ্রমিক এর ক্ষেত্রেও স্বাধীন। দক্ষতার উপর নির্ভর করে আপনি আয় করতে পারবেন। তাই একজন সফল ফ্রিল্যান্সার হতে হলে সবার আগে প্রয়োজন আপনার দক্ষতা। মনে রাখতে হবে ফ্রিল্যান্সাররা যেমন আয় এর ক্ষেত্রে স্বাধীন একই ভাবে আয় কিন্তু সবসময় একরকম হয় না। তাই ফ্রিল্যান্সার হতে হলে আপনাকে এই দক্ষতার পাশাপাশি এই বিষয়গুলোর জন্য প্রস্তুতি নিতে হবে। তো চলুন দেখে আসি একজন ফ্রিল্যান্সার হওয়ার সবচাইতে বড় ৩টি সুবিধা কি কি,</p>
+                        <h2>ফ্রিল্যান্সার হওয়ার সবচাইতে বড় ৩টি সুবিধা কি কি?</h2>
+                        <ul>
+                            <li>1) স্বাধীনতা</li>
+                            <li>2) দক্ষতা অনুযায়ী আয় এর নিশ্চয়তা</li>
+                            <li>3) নিজে কিছু করার আনন্দ</li>
+                        </ul>
+                        <p>স্বাধীনতা একজন ফ্রিল্যান্সার এর সবচাইতে বড় সম্পদ। আপনি চাইলেই যেখান থেকে খুশি কাজ করতে পারেন। যেখানেই কম্পিউটার বা ল্যাপটপ এবং ইন্টারনেট কানেকশন থাকবে সেটাই হবে আপনার অফিস। এমনকি কাজ করার জন্য আপনার ফরমাল পোশাকও পরিধান করতে হবে না। কাজ শেষ করার সময় নির্ধারনটিও আপনার আয়ত্বের মধ্যেই থাকবে তাই ইচ্ছামত কাজ করতে পারবেন। কার অধিনে কাজ করবেন সেটি নির্ধারন করবেন আপনি নিজেই।</p>
+                        <p>ফ্রিল্যান্সার হওয়ার জন্য প্রথমেই প্রয়োজন দক্ষতা। আপনি যা করছেন বা করতে চান সেই বিষয়ে যদি আপনি দক্ষ হন তাহলে আপনি নিজের যোগ্যতা অনুযায়ী পারিশ্রমিক দাবি করতে পারেন। আর পারিশ্রমিক পছন্দ না হলে কাজ করবেন না।</p>
+                        <p>ফ্রিল্যান্সার হওয়ার সবচাইতে বড় সুবিধা হল নিজে কিছু করার আনন্দ। আপনার বস আপনি নিজেই। যেই কাজটি করতে আপনার সবচাইতে ভালো লাগবে আপনি তাই করবেন। আপনি সেই অল্প কিছু সৌভাগ্যবানদের মধ্যে একজন হতে পারবেন যারা নিজের প্যাশনকে প্রফেশন হিসেবে নিতে পেরেছে।</p>
+                        <h4>চাকুরীর পিছনে না ছুটে নিজের সফল ক্যারিয়ার এর জন্য অর্জন করুন দক্ষতা। কারন শুধুমাত্র দক্ষতাই পারে আপনাকে অন্যদের থেকে একধাপ এগিয়ে রাখতে। বিশ্বমান এর প্রশিক্ষণ এর মাধ্যমে দক্ষতা অর্জন এর জন্য চলে আসুন ওয়েব ট্রেনিং ইনস্টিটিউট এ।</h4>
+                        <h4><a href="free_course.html" target="_blank">আমাদের অনলাইন ফ্রি কোর্সগুলো দেখতে এখানে ক্লিক করুন</a></h4>
+                        <h4><a href="premium_course.html" target="_blank">আমাদের অনলাইন প্রিমিয়াম কোর্সগুলো সম্পর্কে জানতে এখানে ক্লিক করুন</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog details part end-->
+
+    <!--Footer part start-->
+
+    <footer id="footer_part">
+        <div class="container">
+            <div class="row footer_top_wrap">
+                <div class="col-lg-4">
+                    <div class="footer_left wow slideInLeft" data-wow-duration="1s">
+                        <img src="img/logo.png" alt="not found" class="img-fluid">
+                        <h2>ওয়েব ট্রেনিং ইনস্টিটিউট</h2>
+                        <p>ওয়েব ট্রেনিং ইনস্টিটিউট বাংলাদেশের অন্যতম একটি অনলাইন কোচিং সেন্টার। আমাদের অনলাইন এবং অফলাইন কোর্সগুলো দেখুন, ব্লগ পোস্ট গুলো পড়ুন এবং নিজেকে একজন সফল ওয়েব ডিজাইনার এবং ওয়েব ডেভেলপার হিসেবে গড়ে তুলুন। আন্তর্জাতিক মানের ওয়েব ডিজাইনার এবং ডেভেলপার তৈরি করা হচ্ছে আমাদের একমাত্র উদ্দেশ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_middle wow slideInDown" data-wow-duration="1.5s">
+                        <h3>ওয়েব ট্রেনিং লিংকস</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/webtraininginstitute360" target="_blank">ফেইসবুক পেইজ</a></li>
+                            <li><a href="https://www.facebook.com/groups/websecrectgroup" target="_blank">ফেইসবুক গ্রুপ</a></li>
+                            <li><a href="https://www.youtube.com/webtraininginstitute" target="_blank">ইউটিউব চ্যানেল</a></li>
+                            <li><a href="free_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ফ্রী কোর্স</a></li>
+                            <li><a href="premium_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট প্রিমিয়াম কোর্স</a></li>
+                            <li><a href="blog.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ব্লগ</a></li>
+                            <li><a href="webdesign_service.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট সার্ভিস</a></li>
+                            <li><a href="contact.html" target="_blank">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_right wow slideInRight" data-wow-duration="1s">
+                        <h3>যোগাযোগ করুন</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> মৌচাক অফিসঃ মাহেরা কটেজ (UCC গলি), ৮০ সিদ্ধেশ্বরী রোড, ঢাকা-১২১৭। (রস মিষ্টান্ন ভান্ডার এর পাশের গলি)</p>
+                        <p><i class="fas fa-phone-square"></i> 01868752464, 01318948051</p>
+                        <p><i class="fas fa-envelope"></i> info.webtraininginstitute@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.webtraininginstitute.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom_wrap">
+                <div class="col-lg-12">
+                    <div class="footer_bottom_text text-center">
+                        <p>Copyright <span>&copy;</span> 2019 Web Training Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer part end-->
+
+    <!--Scroll to top start-->
+
+    <div class="scroll_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--Scroll to top end-->
+
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

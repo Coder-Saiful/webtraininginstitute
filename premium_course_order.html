@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>প্রিমিয়াম কোর্স অর্ডার ডিটেইলস</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Menu part start-->
+
+    <header id="header_part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="not found" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free_course.html">ফ্রি কোর্স</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="premium_course.html">প্রিমিয়াম কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">ব্লগসমূহ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                সার্ভিস সমূহ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="webdesign_service.html">ওয়েবসাইট ডিজাইন</a>
+                                <a class="dropdown-item" href="webdevelopment_service.html">ওয়েবসাইট ডেভেলপমেন্ট</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question.html">প্রশ্নউত্তর</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html">শর্তাবলী</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn student_feedback" data-toggle="modal" data-target="#exampleModal">
+                                Student Feedback
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add Your Feedback</h5>
+                                            <p>আমদের ফ্রী এবং প্রিমিয়াম ভিডিও কোর্সগুলো আপনাদের কাছে কেমন লাগছে সেই সম্পর্কে ফিডব্যাক দিন...</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="">Your Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Picture</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Feedback <span>*</span></label>
+                                                    <textarea rows="6" placeholder="ওয়েব ট্রেনিং ইনস্টিটিউট সম্পর্কে এখানে লেখুন" class="form-control"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn student_feedback_close_button" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn student_feedback_submit_button">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Menu part end-->
+
+    <!--New banner start-->
+
+    <section id="new_banner_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_banner_text text-center">
+                        <h2>প্রিমিয়াম কোর্স অর্ডার ডিটেইলস</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New banner end-->
+
+    <!--Premium course order details start-->
+
+    <section id="premium_course_order">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="premium_course_order_head">
+                        <h2>কিভাবে ডিভিডি সঠিকভাবে অর্ডার করবেন, তার জন্য এই ভিডিওটি একবার দেখে নিন...</h2>
+                        <video src="video/dvd_order.mp4" controls poster="img/web_order_img.png" loop></video>
+                        <h3>টিউটোরিয়াল অর্ডার ফর্মঃ</h3>
+                    </div>
+                    <div class="premium_course_order_details">
+                        <h4>ডিভিডি অর্ডার করতে নিচের ফরমটি পূরণ করুনঃ</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="">নাম: <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Please Enter Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">মোবাইল: <span>*</span></label>
+                                <input type="text" class="form-control" placeholder="Please Enter Your Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <label for="">ইমেইল:</label>
+                                <input type="email" class="form-control" placeholder="Enter Your Email Address">
+                            </div>
+                            <div class="form-group">
+                                <label for="">অর্ডার সিলেক্ট করুনঃ <span>*</span></label>
+                                <div id="order_select">
+                                    <div id="dvd_order">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked style="cursor:pointer">
+                                        <label class="form-check-label" for="exampleRadios1" style="color:black;font-weight: 400;font-size: 16px;cursor:pointer;">
+                                            ডিভিডি অর্ডার
+                                        </label>
+                                        <div id="delivery_address">
+                                            <label for="" style="color:#019ec1;" id="">ডেলিভারি অ্যাড্রেস: <span>*</span></label>
+                                            <textarea name="" rows="5" class="form-control" placeholder="আপনার ডেলিভারী এড্রেসটি এখানে লেখুন"></textarea>
+                                        </div>
+                                    </div>
+                                    <div id="download_link_order">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="cursor:pointer">
+                                        <label class="form-check-label" for="exampleRadios2" style="color:black;font-weight: 400;font-size: 16px;cursor:pointer;">
+                                            ডাউনলোড লিংক অর্ডার
+                                        </label>
+                                        <div id="download_process">
+                                            <p style="margin-bottom: 0;">ডাউনলোড লিংক অর্ডার করলে, অর্ডার কনফার্ম হওয়ার ১২ ঘন্টার মধ্যে আপনার দেওয়া ফোন নাম্বারে ফোন করে যোগাযোগ করা হবে, তারপর আপনাকে ডাউনলোড সিক্রেট লিংকটি দেওয়া হবে.....</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">পেমেন্ট অপশন সিলেক্ট করুনঃ <span>*</span></label>
+                                <div id="payment_method">
+                                    <div id="bkash_transfer">
+                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios3" value="option3" checked style="margin-top:10px;cursor:pointer;">
+                                        <label class="form-check-label" for="exampleRadios3" style="color:black;font-weight:400;font-size:16px;cursor:pointer;">
+                                            বিকাশ ট্রান্সফার <img src="img/bkash_icon.png" alt="not found" class="img-fluid">
+                                        </label>
+                                        <div id="bkash_transfer_process">
+                                            <h4>কিভাবে পেমেন্ট করবেন এবং ডিভিডি / ডাউনলোড লিংক পাবেন?</h4>
+                                            <p>১) নিচে একটি পার্সোনাল বিকাশ নাম্বার দেওয়া আছে প্রথমে আপনাকে ঐ নাম্বারে টাকা পাঠাতে (Send Money) হবে।</p>
+                                            <p>২) টাকা পাঠানোর পর আপনি যে নাম্বার থেকে টাকা পাঠিয়েছেন সেই নাম্বারটি নিচে (bKash Number) এই ফিল্ডে অ্যাড করেন ।</p>
+                                            <p>৩) বিকাশ থেকে টাকা পাঠানোর পর একটি Transaction ID (TrxID) দেওয়া হয়। আপনি যদি আপনার নিজের পার্সোনাল নাম্বার থেকে টাকা পাঠিয়ে থাকেন তাহলে আপনার মোবাইলের মেসেজ চেক করলেই TrxID পেয়ে যাবেন। আপনি যদি কোন এজেন্ট এর মাধ্যমে অর্থাৎ কোন দোকান থেকে টাকা পাঠিয়ে থাকেন তাহলে এজেন্ট থেকে Transaction ID (TrxID) সংগ্রহ করবেন তারপর নিচে (bKash Transaction ID) এই ফিল্ডে অ্যাড করেন।</p>
+                                            <p>৪) বিকাশ নাম্বার এবং TrxID অ্যাড করার পর Submit Order বাটনে ক্লিক করুন।</p>
+                                            <p>৫) অর্ডার প্লেস করার পর খুব শিগ্রই আমরা আপনার অর্ডারটি চেক করবো এবং আপনি যদি সঠিকভাবে পেমেন্ট করে থাকেন, তাহলে ১২ ঘণ্টার মধ্যে আপনার দেওয়া নাম্বারে যোগাযোগ করা হবে, এবং আপনার দেওয়া ডেলিভারি এড্রেসে ডিভিডিটি পৌঁছে দেওয়া হবে, আর যারা ডাউলোড লিংক অর্ডার করবেন, তাদেরকে সিক্রেট ভিডিও ডাউনলোড লিংকটি দিয়ে দেওয়া হবে..</p>
+                                            <h6>bKash Personal Number : <span>01868 752 464</span></h6>
+                                            <div class="form-group">
+                                                <label for="">bKash Number: <span>*</span></label>
+                                                <input type="text" class="form-control" placeholder="যে বিকাশ নাম্বার থেকে টাকা পাঠিয়েছেন সেই নাম্বারটি এখানে লিখুন">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">bKash Transaction ID: <span>*</span></label>
+                                                <input type="text" class="form-control" placeholder="টাকা পাঠানোর পর যে TrxID নাম্বারটি পেয়েছেন সেটি এখানে লিখুন">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="rocket_transfer">
+                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios4" value="option4" style="margin-top:10px;cursor:pointer;">
+                                        <label class="form-check-label" for="exampleRadios4" style="color:black;font-weight:400;font-size:16px;cursor:pointer;">
+                                            রকেট ট্রান্সফার <img src="img/rocket_icon.png" o alt="not found" class="img-fluid">
+                                        </label>
+                                        <div id="rocket_transfer_process">
+                                            <h4>কিভাবে পেমেন্ট করবেন এবং ডিভিডি / ডাউনলোড লিংক পাবেন?</h4>
+                                            <p>১) নিচে একটি পার্সোনাল রকেট নাম্বার দেওয়া আছে প্রথমে আপনাকে ঐ নাম্বারে টাকা পাঠাতে (Send Money) হবে।</p>
+                                            <p>২) টাকা পাঠানোর পর আপনি যে নাম্বার থেকে টাকা পাঠিয়েছেন সেই নাম্বারটি নিচে (Rocket Number) এই ফিল্ডে অ্যাড করেন । আপনার ১১ ডিজিটের নাম্বার দিবেন রকেটের লাস্ট ডিজিট অ্যাড করবেন না।</p>
+                                            <p>৩) রকেট থেকে টাকা পাঠানোর পর একটি Transaction ID (TrxID) দেওয়া হয়। আপনি যদি আপনার নিজের পার্সোনাল নাম্বার থেকে টাকা পাঠিয়ে থাকেন তাহলে আপনার মোবাইলের মেসেজ চেক করলেই TrxID পেয়ে যাবেন। আপনি যদি কোন এজেন্ট এর মাধ্যমে অর্থাৎ কোন দোকান থেকে টাকা পাঠিয়ে থাকেন তাহলে এজেন্ট থেকে Transaction ID (TrxID) সংগ্রহ করবেন তারপর নিচে (Rocket Transaction ID) এই ফিল্ডে অ্যাড করেন।</p>
+                                            <p>৪) রকেট নাম্বার এবং TrxID অ্যাড করার পর Submit Order বাটনে ক্লিক করুন।</p>
+                                            <p>৫) অর্ডার প্লেস করার পর খুব শিগ্রই আমরা আপনার অর্ডারটি চেক করবো এবং আপনি যদি সঠিকভাবে পেমেন্ট করে থাকেন, তাহলে ১২ ঘণ্টার মধ্যে আপনার দেওয়া নাম্বারে যোগাযোগ করা হবে, এবং আপনার দেওয়া ডেলিভারি এড্রেসে ডিভিডিটি পৌঁছে দেওয়া হবে, আর যারা ডাউলোড লিংক অর্ডার করবেন, তাদেরকে সিক্রেট ভিডিও ডাউনলোড লিংকটি দিয়ে দেওয়া হবে..</p>
+                                            <h6>Rocket Personal Number : <span>01868 752 4643</span></h6>
+                                            <div class="form-group">
+                                                <label for="">Rocket Number: <span>*</span></label>
+                                                <input type="text" class="form-control" placeholder="যে রকেট নাম্বার থেকে টাকা পাঠিয়েছেন সেই নাম্বারটি এখানে লিখুন">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Rocket Transaction ID: <span>*</span></label>
+                                                <input type="text" class="form-control" placeholder="টাকা পাঠানোর পর যে TrxID নাম্বারটি এসএমএস পেয়েছেন সেটি এখানে লিখুন">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">আপনি কি আমাদের Terms and Conditions এর সাথে একমত? <span>*</span></label>
+                                <div class="form-check form-check-block">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" style="cursor: pointer;">
+                                    <label class="form-check-label" for="inlineCheckbox1" style="color:black;cursor: pointer;
+                                    font-weight: 400;font-size:16px;"> আমি আপনাদের <a href="terms.html" target="_blank" style="text-decoration:none ;">Terms and Conditions</a> এর সাথে একমত এবং আমি এই কাজগুলো শেখার জন্য সত্যিই সিরিয়াস</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn order_submit_button"> Submit Order </button>
+                        </form>
+                    </div>
+                    <div class="premium_course_order_bottom_text">
+                        <h5>* আরও কোনো তথ্য জানার থাকলে সরাসরি ডায়াল করুন- 01868752464 এই নাম্বারে, অথবা ফেসবুক পেইজে মেসেজ করুন এখানে <a href="https://www.messenger.com/t/webtraininginstitute360" target="_blank">ক্লিক করে</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Premium course order details end-->
+
+    <!--Footer part start-->
+
+    <footer id="footer_part">
+        <div class="container">
+            <div class="row footer_top_wra">
+                <div class="col-lg-4">
+                    <div class="footer_left wow slideInLeft" data-wow-duration="1s">
+                        <img src="img/logo.png" alt="not found" class="img-fluid">
+                        <h2>ওয়েব ট্রেনিং ইনস্টিটিউট</h2>
+                        <p>ওয়েব ট্রেনিং ইনস্টিটিউট বাংলাদেশের অন্যতম একটি অনলাইন কোচিং সেন্টার। আমাদের অনলাইন এবং অফলাইন কোর্সগুলো দেখুন, ব্লগ পোস্ট গুলো পড়ুন এবং নিজেকে একজন সফল ওয়েব ডিজাইনার এবং ওয়েব ডেভেলপার হিসেবে গড়ে তুলুন। আন্তর্জাতিক মানের ওয়েব ডিজাইনার এবং ডেভেলপার তৈরি করা হচ্ছে আমাদের একমাত্র উদ্দেশ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_middle wow slideInDown" data-wow-duration="1.5s">
+                        <h3>ওয়েব ট্রেনিং লিংকস</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/webtraininginstitute360" target="_blank">ফেইসবুক পেইজ</a></li>
+                            <li><a href="https://www.facebook.com/groups/websecrectgroup" target="_blank">ফেইসবুক গ্রুপ</a></li>
+                            <li><a href="https://www.youtube.com/webtraininginstitute" target="_blank">ইউটিউব চ্যানেল</a></li>
+                            <li><a href="free_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ফ্রী কোর্স</a></li>
+                            <li><a href="premium_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট প্রিমিয়াম কোর্স</a></li>
+                            <li><a href="blog.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ব্লগ</a></li>
+                            <li><a href="webdesign_service.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট সার্ভিস</a></li>
+                            <li><a href="contact.html" target="_blank">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_right wow slideInRight" data-wow-duration="1s">
+                        <h3>যোগাযোগ করুন</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> মৌচাক অফিসঃ মাহেরা কটেজ (UCC গলি), ৮০ সিদ্ধেশ্বরী রোড, ঢাকা-১২১৭। (রস মিষ্টান্ন ভান্ডার এর পাশের গলি)</p>
+                        <p><i class="fas fa-phone-square"></i> 01868752464, 01318948051</p>
+                        <p><i class="fas fa-envelope"></i> info.webtraininginstitute@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.webtraininginstitute.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom_wrap">
+                <div class="col-lg-12">
+                    <div class="footer_bottom_text text-center">
+                        <p>Copyright <span>&copy;</span> 2019 Web Training Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer part end-->
+
+    <!--Scroll to top start-->
+
+    <div class="scroll_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--Scroll to top end-->
+
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

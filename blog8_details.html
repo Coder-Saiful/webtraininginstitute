@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ব্লগ ডিটেইলস</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Menu part start-->
+
+    <header id="header_part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="not found" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free_course.html">ফ্রি কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="premium_course.html">প্রিমিয়াম কোর্স</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="blog.html">ব্লগসমূহ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                সার্ভিস সমূহ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="webdesign_service.html">ওয়েবসাইট ডিজাইন</a>
+                                <a class="dropdown-item" href="webdevelopment_service.html">ওয়েবসাইট ডেভেলপমেন্ট</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question.html">প্রশ্নউত্তর</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html">শর্তাবলী</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn student_feedback" data-toggle="modal" data-target="#exampleModal">
+                                Student Feedback
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add Your Feedback</h5>
+                                            <p>আমদের ফ্রী এবং প্রিমিয়াম ভিডিও কোর্সগুলো আপনাদের কাছে কেমন লাগছে সেই সম্পর্কে ফিডব্যাক দিন...</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="">Your Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Picture</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Feedback <span>*</span></label>
+                                                    <textarea rows="6" placeholder="ওয়েব ট্রেনিং ইনস্টিটিউট সম্পর্কে এখানে লেখুন" class="form-control"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn student_feedback_close_button" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn student_feedback_submit_button">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Menu part end-->
+
+    <!--New banner start-->
+
+    <section id="new_banner_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_banner_text text-center">
+                        <h2>ব্লগ ডিটেইলস</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New banner end-->
+
+    <!--Blog details part start-->
+
+    <section id="blog_details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_head text-center">
+                        <img src="img/blog8.jpg" alt="not found" class="img-fluid">
+                        <h5>05-September-2019, <span style="font-weight:400;">By-</span> <span style="font-weight: 400;color:orange;">Rajiur Rahman</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_bottom">
+                        <h4>আমরা অনেক কিছুতে এগিয়ে গেলেও অনলাইন লার্নিং ক্ষেত্রে অন্যদের তুলনায় এখনো অনেক পিছিয়ে আছি, আসলে আমাদের এই বিষয়টিতে কম অভ্যস্ততায় মূল কারণ। আসুন আমরা এর উত্তর খুঁজি :</h4>
+                        <p>১. খরচ অনেক কম – আমাদের বর্তমান বাস্তবতায় লেখাপড়ার খরচ অনেক বেড়ে গেছে , তাই আমরা চাইলেও অনেক বিষয়ে আগ্রহ থাকা সত্ত্বেও সেই বিষয়ে দক্ষতা অর্জন করতে পারছিনা। স্বাভাবিক জীবনযাত্রার ব্যায় বহন করে নতুন কিছু শেখার জন্য খরচ করা অনেক কষ্টসাধ্য হয়ে যাই, অথচ আমরা যদি একই বিষয়টি অনলাইনে ঘরে বা বাইরে যেখানেই সুবিধা হয় বসে শিখতে চাই সেক্ষেত্রে অর্ধেকেরও কম কোনো কোনো ক্ষেত্রে তিন ভাগের এক ভাগ খরচ করেই শিখতে পারি।</p>
+                        <p>২. অনেক সময় বেঁচে যায় – আমরা যে যেখানেই থাকিনা কেন বস্তুত সব সময় কিছু না কিছু নিয়ে ব্যাস্ত থাকি। যেমন কেউ একাডেমিক পড়ালেখা, কেউ চাকুরী বা ব্যবসা, খেলাধুলা, ঘুরাঘুরি অথবা আড্ডাবাজি তাই যখনি নতুন কিছু শিখতে যাই সময়টা বের করা অনেক কঠিন হয়ে যায়, আর এক্ষেত্রে শুধু কোনো কোর্সের নির্দিষ্ট সময়ইনা সাথে যাতায়াতেও অনেক সময় ব্যয় হয় কিন্তু আমরা যদি একই বিষয় অনলাইন এ শিখি তাহলে নিজের সুবিধামতো সময় নিতে পারি এবং সময়ও অনেক কম লাগে, যেমন কোনো প্রতিঠানে ২ ঘন্টার ক্লাস করতে এলে যাওয়া আসা এবং ক্লাস এর সময় সহ ৪-৫ ঘন্টা লেগে যায় আর জ্যাম থাকলে তো দ্বিগুণও লাগতে পারে। কিন্তু অনলাইন এ শুধু ক্লাসের ২ ঘন্টা সময় দিলেই হয়ে যাচ্ছে।</p>
+                        <p>৩. মনোযোগ এবং নিজের পছন্দমতো পরিবেশ তৈরি করা যায়- যেকোনো কিছু শেখার ক্ষেত্রে মনোযোগ তথা একাগ্রতা খুবই গুরুত্বপূর্ণ, এর ব্যাতিক্রম হলে নির্দিষ্ট সময় ব্যায় করেও কাঙ্খিত ফলাফল আসেনা। সাধারণত ক্লাস রুমে যখন আমরা কোনো পাঠ নেই সেক্ষেত্রে তার আশেপাশের পরিবেশ যদি শান্ত এবং আরামদায়ক না হয় তখন আমরা মনোযোগ হারিয়ে ফেলি। তবে অনলাইন এ আপনি আপনার সুবিধামতো স্থানে বসে নিজের পছন্দমতো পরিবেশ তৈরি করে নিতে পারবেন। আরেকটি বিষয় উল্লেখ্য অনেকে আছেন যারা ক্লাসের মাঝে কোনো কিছু জিজ্ঞেস করতে বা প্রশ্ন করতে ভয় পান বা ঘাবড়ে যান সেক্ষেত্রে অনলাইন এ আপনি খুব সহজেই এই জড়তা থেকে বেরিয়ে আসতে পারবেন কারন যেহেতু আপনি অনেকের মধ্যে নেই তাই যেকেনো বিষয় নিয়েই বার বার কথা বলতে পারবেন।</p>
+                        <p>৪. নিয়মিত কাজের পাশাপাশি শিখতে পারবেন – যারা বিভিন্ন পেশা নিয়ে ব্যাস্ত সময় পার করছেন তাদের জন্য অনলাইন লার্নিং খুবই সহজ এবং কার্যকরী মাধ্যম। সারাদিন অফিস করে জ্যাম ঠেলে কোথাও যেয়ে ক্লাস করাটা অনেক কঠিন এবং অনেক ক্ষেত্রেই দেখা যাই অতিরিক্ত ক্লান্ত হয়ে যাওয়ায় ক্লাস এ কোনো মনোযোগ থাকেনা। কিন্তু যদি আপনি অফিস শেষ করে বাসায় গিয়ে একটু বিশ্রাম নিয়ে আপনার নিজের টেবিলে অথবা আরামদায়ক কোনো স্থানে বসে ক্লাস করেন তাহলে পূর্ণ মনোযোগ নিয়ে শিখতে পারবেন।</p>
+                        <p>৫. নিজেকে টেকনিক্যালি আরো দক্ষ করা যায় – এই বিষয়টি হয়তো আমরা অনেকেই ভাবিনা যে আমরা কোনো বিষয়ে কোনো প্রতিষ্ঠানে গিয়ে শিখতে যাই ঠিক অনুরূপ বিষয়টি যদি অনলাইন এ শিখি তখন একটি নির্দিষ্ট বিষয় পাশাপাশি আমরা অনেক টুলস এবং টেকনিক এর সাথে পরিচিত হয়, সেই সাথে অনলাইন এ যোগাযোগের দক্ষতাও বৃদ্ধি পাচ্ছে। আর এভাবেই নিজেকে আরো বেশি ডিজিটাল প্রযুক্তির সাথে মানিয়ে নিতে সক্ষম হবো।</p>
+                        <h4>ভেবে দেখুন আপনি প্রতিদিন যেই সময়টা ফেইসবুক, ইউটিউব অথবা সোশ্যাল মিডিয়াতে ব্যয় করছেন ঠিক সেই সময়টা যদি অনলাইন এ কোনো কোর্স দক্ষতা অর্জনের জন্য ব্যয় করি তাহলে নিজেকে আরো বেশি সমৃদ্ধ করতে পারবেন যা আপনার প্রফেশনাল ক্যারিয়ারকে অনেক বেশি বিকশিত করবে।যদিও অনলাইন লার্নিং এর ক্ষেত্রে চ্যালেঞ্জ রয়েছে যেমন নিরবিচ্ছিন্ন ভালো গতির ইন্টারনেট, সেই সাথে সাশ্রয়ী মূল্য এবং সহজ লভ্যতা। তবে বর্তমানে বাংলাদেশে মোবাইল ইন্টারনেটের পাশাপাশি ব্রডব্যান্ড কানেক্শনও অনেক জায়গায় পৌঁছে গেছে। আর খরচ সেটাতো তো আগেই বলেছি যে টাকায় আপনি অনলাইন এ কোর্স করতে পারবেন তার সাথে ইন্টারনেটের খরচটা জুড়ে দিলেও বরং কোনো কোর্সের মূল ফী এর অর্ধেকই হবে। এর সাথে যাতায়াতের খরচ এবং সময়ের মূল্য পুরোটাই কাজে লাগাতে পারছেন। তাই দেরি না করে এবং বসে না থেকে এখনই সিদ্ধান্ত নিয়ে আপনার ভালো লাগের যে কোনো বিষয় নিয়ে অনলাইন কোর্স করুন এবং এই প্রতিযোগিতার বাজারে নিজেকে তৈরি রাখুন।</h4>
+                        <h4><a href="free_course.html" target="_blank">আমাদের অনলাইন ফ্রি কোর্সগুলো দেখতে এখানে ক্লিক করুন</a></h4>
+                        <h4><a href="premium_course.html" target="_blank">আমাদের অনলাইন প্রিমিয়াম কোর্সগুলো সম্পর্কে জানতে এখানে ক্লিক করুন</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog details part end-->
+
+    <!--Footer part start-->
+
+    <footer id="footer_part">
+        <div class="container">
+            <div class="row footer_top_wrap">
+                <div class="col-lg-4">
+                    <div class="footer_left wow slideInLeft" data-wow-duration="1s">
+                        <img src="img/logo.png" alt="not found" class="img-fluid">
+                        <h2>ওয়েব ট্রেনিং ইনস্টিটিউট</h2>
+                        <p>ওয়েব ট্রেনিং ইনস্টিটিউট বাংলাদেশের অন্যতম একটি অনলাইন কোচিং সেন্টার। আমাদের অনলাইন এবং অফলাইন কোর্সগুলো দেখুন, ব্লগ পোস্ট গুলো পড়ুন এবং নিজেকে একজন সফল ওয়েব ডিজাইনার এবং ওয়েব ডেভেলপার হিসেবে গড়ে তুলুন। আন্তর্জাতিক মানের ওয়েব ডিজাইনার এবং ডেভেলপার তৈরি করা হচ্ছে আমাদের একমাত্র উদ্দেশ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_middle wow slideInDown" data-wow-duration="1.5s">
+                        <h3>ওয়েব ট্রেনিং লিংকস</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/webtraininginstitute360" target="_blank">ফেইসবুক পেইজ</a></li>
+                            <li><a href="https://www.facebook.com/groups/websecrectgroup" target="_blank">ফেইসবুক গ্রুপ</a></li>
+                            <li><a href="https://www.youtube.com/webtraininginstitute" target="_blank">ইউটিউব চ্যানেল</a></li>
+                            <li><a href="free_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ফ্রী কোর্স</a></li>
+                            <li><a href="premium_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট প্রিমিয়াম কোর্স</a></li>
+                            <li><a href="blog.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ব্লগ</a></li>
+                            <li><a href="webdesign_service.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট সার্ভিস</a></li>
+                            <li><a href="contact.html" target="_blank">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_right wow slideInRight" data-wow-duration="1s">
+                        <h3>যোগাযোগ করুন</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> মৌচাক অফিসঃ মাহেরা কটেজ (UCC গলি), ৮০ সিদ্ধেশ্বরী রোড, ঢাকা-১২১৭। (রস মিষ্টান্ন ভান্ডার এর পাশের গলি)</p>
+                        <p><i class="fas fa-phone-square"></i> 01868752464, 01318948051</p>
+                        <p><i class="fas fa-envelope"></i> info.webtraininginstitute@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.webtraininginstitute.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom_wrap">
+                <div class="col-lg-12">
+                    <div class="footer_bottom_text text-center">
+                        <p>Copyright <span>&copy;</span> 2019 Web Training Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer part end-->
+
+    <!--Scroll to top start-->
+
+    <div class="scroll_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--Scroll to top end-->
+
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

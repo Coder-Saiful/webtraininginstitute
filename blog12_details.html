@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ব্লগ ডিটেইলস</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Menu part start-->
+
+    <header id="header_part">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="not found" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free_course.html">ফ্রি কোর্স</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="premium_course.html">প্রিমিয়াম কোর্স</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="blog.html">ব্লগসমূহ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                সার্ভিস সমূহ
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="webdesign_service.html">ওয়েবসাইট ডিজাইন</a>
+                                <a class="dropdown-item" href="webdevelopment_service.html">ওয়েবসাইট ডেভেলপমেন্ট</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="question.html">প্রশ্নউত্তর</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html">শর্তাবলী</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn student_feedback" data-toggle="modal" data-target="#exampleModal">
+                                Student Feedback
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Add Your Feedback</h5>
+                                            <p>আমদের ফ্রী এবং প্রিমিয়াম ভিডিও কোর্সগুলো আপনাদের কাছে কেমন লাগছে সেই সম্পর্কে ফিডব্যাক দিন...</p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="">Your Name <span>*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Picture</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="">Your Feedback <span>*</span></label>
+                                                    <textarea rows="6" placeholder="ওয়েব ট্রেনিং ইনস্টিটিউট সম্পর্কে এখানে লেখুন" class="form-control"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn student_feedback_close_button" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn student_feedback_submit_button">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Menu part end-->
+
+    <!--New banner start-->
+
+    <section id="new_banner_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="new_banner_text text-center">
+                        <h2>ব্লগ ডিটেইলস</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--New banner end-->
+
+    <!--Blog details part start-->
+
+    <section id="blog_details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_head text-center">
+                        <img src="img/blog12.jpg" alt="not found" class="img-fluid">
+                        <h5>03-July-2019, <span style="font-weight:400;">By-</span> <span style="font-weight: 400;color:orange;">Rajiur Rahman</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_details_bottom">
+                        <h4>ইন্টারনেট থেকে আয়!- অনেকের কাছে আজব কিছু, অনেকের কাছে সুপরিচিত শব্দ। অনেকেই সফল, আবার অনেকে খুজেই চলেছেন কিভাবে কি? আবার অনেকেই বেশি আয়ের লোভে পড়ে ধরা খেয়েছেন হাজার এমনকি লাখ টাকাও!! কিন্তু কখনো জেনেছেন কি আসল বাস্তবতা? কি এটা, কি করা উচিত, কিভাবে করা উচিত? এই সম্পর্কিত সুপার গাইডলাইন নিয়েই আজকের পর্ব।</h4>
+                        <h4>যদি শুরু থেকে শেষ পর্যন্ত মনোযোগ দিয়ে পড়তে পারেন তাহলে আশা করি আপনাকে আর কাউকে জিজ্ঞেস করতে হবে না- “কিভাবে অনলাইন/ইন্টারনেট থেকে আয় করব?”</h4>
+                        <p>সবার জন্য প্রথমে ছোট্ট করে বলে দিই- “ফ্রীল্যান্সিং বা অনলাইনে আয় সম্পূর্ণ বাস্তব এবং লিগেল পদ্ধতিতে ইনকাম। এটা করে কোটিপতি হওয়া সম্ভব কিন্তু তাই বলে এটা ‘এক মাসে কোটিপতি’- হওয়ার মত কোন গোপন মন্ত্র নয়। আমাদের বাস্তব জীবনের মত এখানেও ইনভেস্ট করে ব্যবসা করা যায় আবার কোন প্রকার ইনভেস্ট ছাড়াও চাকরীর মাধ্যমে আয় করার ব্যবস্থা আছে। যারা পরিশ্রম ছাড়াই আয় করতে চান বা স্বল্প সময়ে ধনী হতে চান তাদের জন্য এটা নয়। পরিশ্রম এবং শেখার মনমানসিকতা না থাকলে আপনি এই পোস্টটি এখানেই পড়া বন্ধ করে দিতে পারেন। আর যদি মনে করেন পরিশ্রম করেই আয় করবেন তাহলে সামনে পড়ুন।</p>
+                        <p>যেহেতু পৃথিবী দিন দিন ইন্টারনেটমূখী হচ্ছে তাই এর ভবিষ্যৎ অত্যন্ত সুদূরপ্রসারী। এটা করার জন্য আপনাকে কোন সুপার হিউম্যান বা অসাধারন প্রতিভার অধিকারী হতে হবে না, সঠিক গাইডলাইন নিয়ে অনেক সাধারন ছেলেমেয়েরাও ইন্টারনেট থেকে ভাল পরিমাণ অর্থ উপার্জন করছে। আমাদের সরকার এ নিয়ে ইতিমধ্যেই নানা উদ্যোগও গ্রহণ করেছে এবং পেপার পত্রিকা, এফ.এম. রেডিও বা বিভিন্ন টিভি প্রোগ্রামেও আপনারা ফ্রীল্যান্সিং নিয়ে হয়ত শুনে থাকবেন। ”</p>
+                        <div style="text-align: center;margin-bottom: 40px;">
+                            <img src="img/make-me-clear-about-online-earning-s.png" alt="not found" class="img-fluid">
+                        </div>
+                        <h2>ইন্টারনেট থেকে আয় সম্পর্কিত কিছু ঝাপসা বিষয়, যা সম্পর্কে আপনাকে অবশ্যই ক্লিয়ার হতে হবেঃ</h2>
+                        <ul>
+                            <li>1) ইন্টারনেটে চাকরী এবং ব্যাবসা দুটোই করা যায়</li>
+                            <li>2) চাকরীর ক্ষেত্রে আপনি কাজ শিখে ঘরে বসেই বিভিন্ন দেশের ক্লাইন্টের কাজ করতে পারবেন, এটাকেই আমাদের দেশে ফ্রীল্যান্সিং বলা হয়ে থাকে</li>
+                            <li>3) ইন্টারনেটে চাকরী করতে কোন সার্টিফিকেট লাগে না, ভাল করে কাজ জানা থাকলে এবং দক্ষতার পরিচয় রাখতে পারলে এখানে কাজ করা যায়</li>
+                            <li>4) ব্যাবসার ক্ষেত্রে আপনি যে ব্যাবসা করবেন সেটা সম্পর্কে জেনে, ইনভেস্ট করে শুরু করতে হয়</li>
+                        </ul>
+                        <h4>তার মানে বোঝা যাচ্ছে, আপনাকে ইন্টারনেটে কাজ করার পূর্বে সিদ্ধান্ত নিতে হবে আপনি কি চাকরী করবেন, নাকি ব্যাবসা করবেন।</h4>
+                        <h4>চাকরী করার জন্য প্রয়োজন কাজ শেখা এবং দক্ষতা, আর ব্যাবসার জন্য প্রয়োজন ইনভেস্ট মানি, রিস্ক নেয়ার সাহস।</h4>
+                        <div style="text-align: center;margin-bottom: 40px;">
+                            <img src="img/Earn-From-Internet---IT-Bari.png" alt="not found" class="img-fluid">
+                        </div>
+                        <h4 style="color:orange;">তাহলে এবার ভাবুন, আপনি কোনটা করবেন? চাকরী – নাকি – ব্যাবসা?</h4>
+                        <h2>ইন্টারনেটে ব্যাবসাঃ</h2>
+                        <p>এই পর্বে আমরা ব্যাবসা নিয়ে কিছু বলব না। এর কারন হচ্ছে, যেহেতু আপনি এখানে একেবারেই নতুন তাই শুরুতেই বিভিন্ন টেকনিক্যাল টার্ম গুলো বুঝবেন না অথবা আপনি ইনভেস্ট করে আয় করতে চাইবেন না। এর জন্য প্রথমে চাকরির বিষয় গুলো ভাল করে বুঝুন। সেগুলো বুঝতে পারলে সেখান থেকেই আপনি ব্যাবসার আইডিয়া তৈরি করতে পারবেন এবং পরবর্তীতে ইন্টারনেটে ব্যাবসা করতে পারবেন।</p>
+                        <h2>এবার চাকরী নিয়ে কিছু কথা বলিঃ</h2>
+                        <p>ইন্টারনেটে চাকরি করার জন্য আপনাকে কোন ধরনের প্রাতিষ্ঠানিক সার্টিফিকেটধারী হতে হবে না, বা আপনাকে সুপার হিউম্যান ও হতে হবে না। এখানে বিভিন্ন বিষয়ের উপর (যেমন- ওয়েব ডিজাইন, SEO, গ্রাফিক্স ডিজাইন, সফটওয়্যার তৈরি ইত্যাদি ) প্রচুর কাজ পাওয়া যায়। যদি আপনি নির্দিষ্ট কোন বিষয়ে কাজ শিখে দক্ষ হতে পারেন তাহলে আপনিও কোন ইনভেস্টমেন্ট ছাড়াই কাজ করতে পারেন।</p>
+                        <div style="text-align: center;margin-bottom:40px;">
+                            <img src="img/You-should-follow-these-to-get-proper-online-earning-guideline.png" alt="not found" class="img-fluid">
+                        </div>
+                        <h2>তবে এর জন্য আপনাকে ফলো করতে হবে নিচের স্টেপগুলোঃ</h2>
+                        <ul>
+                            <li>1) প্রথমে কাজ শিখতে হবে</li>
+                            <li>2) অনলাইনে থাকা বিভিন্ন চাকরিদাতা ওয়েবসাইট বা ফ্রীল্যান্সিং সাইট থেকে কাজ খুজতে হবে</li>
+                            <li>3) সেখানে পাওয়া কাজ সফলভাবে সম্পন্ন করে সেই অর্থ আপনার ব্যাংকে ট্রান্সফার করতে হবে</li>
+                        </ul>
+                        <h4>** বিষয়টা আমাদের বাস্তব জীবনের মতই। কাজ শিখলে যেমন চাকরী করা যায়, তেমনিভাবে ইন্টারনেটেও চাকরী করতে পারেন। পার্থক্য এতটুকুই, এখানে আপনি স্বাধীন। আপনার মন চাইলে কাজ করবেন, আর মন না চাইলে করবেন না। কাজ করলে টাকা আসবে, আর না করলে আসবে না।</h4>
+                        <h4 style="color:brown;">তাহলে বোঝা যাচ্ছে, ইন্টারনেট থেকে আয় করতে গেলে প্রথমে অবশ্যই কোন একটা বিষয়ে কাজ শিখতে হবে।</h4>
+                        <h2>কাজ শেখার জন্য নিচের স্টেপ গুলো ফলো করুনঃ</h2>
+                        <ul>
+                            <li>1) প্রথমেই জানতে হবে ইন্টারনেটে কি কি বিষয়ের উপরে চাকরী বা কাজ করা যায়</li>
+                            <li>2) সেই বিষয় গুলো সম্পর্কে কয়েকদিন ভাল করে ঘাটাঘাটি করুন</li>
+                            <li>3) দেখুন এবং ভাবুন, কোন বিষয়টি আপনার জন্য ভাল হবে বা আপনার পরিস্থিতির সাথে যায়</li>
+                            <li>4) ভেবে চিন্তে একটা নির্দিষ্ট টপিক সিলেক্ট করুন যেটা শিখে আপনি দক্ষ হবেন</li>
+                            <li>5) সেটা সম্পর্কে রিসার্চ শুরু করুন এবং প্রাথমিক ধারনা নিন, এবং নিতে থাকুন</li>
+                            <li>6) প্রয়োজন হলে বিভিন্ন টিউটোরিয়াল সংগ্রহ করে সেটার কাজ শিখুন, প্রয়োজনে ভাল কোন প্রতিষ্ঠানে ভর্তি হয়ে কোর্স করে নিন</li>
+                            <li>7) ২-৩ মাস নিজেকে শেখার চরম পর্যায়ে নিয়ে যান এবং ভাল করে কাজ শেখার পর প্রচুর হারে প্র্যাক্টিস করুন</li>
+                            <li>8) নিজে নিজে ৪-৫ টা প্রোজেক্ট করুন বা কোন প্রতিষ্ঠানের ফ্রী কাজ করে দিন</li>
+                            <li>9) এবার আপনি নিজেকে ইন্টারন্যাশনাল মার্কেটে কাজ করার উপযোগী মনে করতে পারেন</li>
+                        </ul>
+                        <h4 style="color:orangered;">হ্যা, হয়ত অনেকেই অধীর আগ্রহে খুজছেন কোন কোন টপিক আপনাকে নির্দিষ্টভাবে শিখতে হবে।</h4>
+                        <h2>ইন্টারনেটে সাধারণত যে সকল বিষয়ে কাজ পাওয়া যায়ঃ</h2>
+                        <ul>
+                            <li>1) Web Design</li>
+                            <li>2) Web Development</li>
+                            <li>3) Graphics Design (Logo Design, Animation- 2D, 3D)</li>
+                            <li>4) SEO- Search Engine Optimizaiton</li>
+                            <li>5) Customer Support / Call Center</li>
+                            <li>6) Digital Marketing- SEM, SMM</li>
+                            <li>7) More, More and More Thousands of Categories…</li>
+                        </ul>
+                        <h4>ওপরে অনলাইনে করতে পারা যায় এমন কিছু কমন কাজের তালিকা তুলে ধরা হল। এগুলোর বাইরে অনেক রকমের কাজ পাওয়া যায়, তবে এগুলোই সবচাইতে কমন।</h4>
+                        <h2>আপনার জন্য প্রথমে কোনটা শেখা উচিত?</h2>
+                        <p>অধিকাংশ ক্ষেত্রেই এই প্রশ্ন যখন আপনি কোন বড় ভাইকে করবেন, তখন তিনি আপনাকে ধরিয়ে দিবে ওয়েব ডিজাইন, বা গ্রাফিক্স ডিজাইন বা এই জাতীয় উনার পছন্দমত কিছু একটা।</p>
+                        <p>কিন্তু বলুন তো, আপনি কাজ করবেন এবং আপনিই টাকা আয় করবেন, তাহলে এখানে আপনি কেন না জেনে বুঝেই আরেকজনের কথা শুনবেন?</p>
+                        <h4 style="color:green;">আমার মতামত হচ্ছে,</h4>
+                        <p>প্রথমে আপনি বিভিন্ন কাজ গুলো সম্পর্কে জানুন, বুঝুন এবং ভেতরে ঢুকে বের করুন কোন কাজ গুলাতে ইনকাম বেশি এবং কোন কাজ গুলো আপনার সাথে যায়।</p>
+                        <p>সাধারণত, যে কাজ গুলো শিখতে কঠিন সেগুলোর দাম অনেক বেশী এবং প্রতিযোগীতা কম, অপরদিকে যে কাজ গুলো শিখতে সোজা সেগুলো দাম তুলনামূলক কম এবং প্রতিযোগীতাও বেশী।</p>
+                        <p>সাধারণত, যে কাজ গুলো শিখতে কঠিন সেগুলোর দাম অনেক বেশী এবং প্রতিযোগীতা কম, অপরদিকে যে কাজ গুলো শিখতে সোজা সেগুলো দাম তুলনামূলক কম এবং প্রতিযোগীতাও বেশী।</p>
+                        <p>* যেমন ধরুন- অ্যাপ্লিকেশন ডেভেলপমেন্ট বা সফটওয়্যার ডেভেলপমেন্ট হচ্ছে ইন্টারনেটের সবচাইতে দামী কাজগুলোর একটি। এখন, এখানে টাকা বেশি আছে দেখেই আপনি হুট করে সিদ্ধান্ত নিয়ে বসে থাকবেন আপনি অ্যাপ্লিকেশন ডেভেলপমেন্ট শিখবেন, এমন কিন্তু মোটেও উচিত হবে না। কারন, টাকার পাশাপাশি আপনাকে দেখতে হবে এটি শিখতে আপনার কত সময় লাগবে এবং আপনার হাতে কত সময় আছে, এছাড়া এটি আপনার পরিস্থিতির সাথে যায় কিনা।</p>
+                        <p>আপনাকে বুঝতে হবে, আপনার কোন কাজে ইন্তারেস্ট বা আগ্রহ আছে, আপনি কোনটা সহজ মনে করেন, আপনার কোনটা করতে ভাল লাগে। আপনার ভাল লাগার উপরে অন্য কারো চাপানো মতকে কোন সময় প্রাধান্য দিবেন না। সব সময় মনে রাখবেন, আপনি যদি আপনার কাজে আনন্দ না পান তাহলে আপনি কখনোই ওই কাজে বেশীদূর এগুতে পারবেন না। এই জন্য প্রত্যেকের উচিত, কাজ শেখার পূর্বে কমপক্ষে, ১৫-৩০দিন সময় নিয়ে বিভিন্ন বিষয়ের কাজ সম্পর্কে ঘাটাঘাটি করা, সেগুলো সম্পর্কে জানা, বোঝা এবং সবশেষে নিজেকে যেটার যোগ্য এবং যেটাতে আপনি নিজেকে আগ্রহী বোধ করেন সেটার দিকেই এগুনো। মনে রাখবেন, আপনি বড় ভাইদের কাছ থেকে শুধু সাজেশন নিবেন, সিদ্ধান্ত সম্পূর্ণ আপনার নিজ বুদ্ধিতেই নিতে হবে। তাহলেই সফলতা সম্ভব।</p>
+                        <h2>আচ্ছা তাহলে বিভিন্ন বিষয়ের কাজ সম্পর্কে কোথায় জানব?</h2>
+                        <p>ইচ্ছা থাকলে উপায় হবেই। প্রয়োজন শুধু সময় নিয়ে খোজা। গুগল কে কাজে লাগিয়ে আমরা অনলাইনের বিভিন্ন কাজ সম্পর্কে বিস্তারিত তথ্য পেতে পারি। এছাড়াও, বাংলায় বিভিন্ন ব্লগ রয়েছে যেগুলোর বিভিন্ন পোস্ট পড়ে সহজেই আমরা কাজ সম্পর্কে আইডিয়া পেতে পারি।</p>
+                        <p>যেমন- আপনি যদি ওয়েব ডিজাইন (Web Design) এর কাজ সম্পর্কে জানতে চান তাহলে কি করবেন? প্রথমেই গুগলে সার্চ করবেন- “What is Web Design” লিখে। সেখান থেকে এই সম্পর্কে কিছু তথ্য পড়ে নিবেন। এর পরে সার্চ দিতে পারেন- “How much time does it takes to learn web design for beginners” এই নিয়ে কিছু তথ্য পড়ুন। এর পরে আবার সার্চ করতে পারেন- “what I need to know to learn web design” বা “work opportunity for a web designer” এই ভাবে প্রতিটি বিষয় নিয়ে গুগলে সার্চ করুন এবং সেখানে প্রাপ্ত বিভিন্ন সাইট বা ব্লগ থেকে পড়ে জেনে নিন কোন কাজ কেমন হবে। এখানে শুধুমাত্র প্রাথমিক বিষয় গুলো জানলেই চলবে।</p>
+                        <h4 style="font-style: italic;">বিঃ দ্রঃ প্রচুর পরিমাণ ধৈর্য আর পড়াশুনার ইচ্ছা না থাকলে, আপনি এই লাইনে কিছুই করতে পারবেন না।</h4>
+                        <p>ইন্টারনেট থেকে উপার্জনের সিদ্ধান্ত সারাজীবনের জন্য। তাই প্রয়োজন সঠিক সিদ্ধান্ত। কারন, শুরুতেই যদি ভূল সিদ্ধান্ত নিয়ে ফেলেন তাহলে বেশিদূর যেতে পারবেন না এবং হতাশায় ভুগতে হবে। আপনি যদি এর জন্য শুরুতে ১ মাস সময় নিয়ে ভাল মত রিসার্চ করে কি কাজ শিখবেন সেটার সঠিক সিদ্ধান্ত না নিতে পারেন তাহলে কিছুই সম্ভব নয়।</p>
+                        <p>আশা করছি, মোটামুটি সবাই এখন বিভিন্ন বিষয়ে কাজ গুলো সম্পর্কে খুব ভাল আইডিয়া নিতে পারবেন, এবং নিজের পছন্দ মত কোন বিষয় সিলেক্ট করতে পারবেন যেটাতে আপনি দক্ষ হবেন।</p>
+                        <p><span style="color:orange;">টিপসঃ</span> একই সাথে অনেক গুলো বিষয় সিলেক্ট করবেন না, প্রথমে একটা নির্দিষ্ট টপিক সিলেক্ট করুন এবং সেটার উপর কাজ শিখে খুব ভাল করে দক্ষতা অর্জন করুন। পরে যদি মনে করেন আরও শিখবেন তখন ভিন্ন কোন টপিক শিখতে পারেন। এখানে অনেক সময় দেখবেন এক টপিক শিখতে গেলে আরেকটা শিখতে হতে পারে, এই ক্ষেত্রে আপনাকে ভেবে চিন্তে সিদ্ধান্ত নিতে হবে, এবং দেখতে হবে আপনার হাতে সময় কেমন থাকে এবং আপনি এর জন্য কেমন সময় ব্যায় করলে কতদিন লাগতে পারে বিষয়টি কমপ্লিট করতে। এইভাবেই সম্পন্ন হবে আপনার প্রথম স্টেপ।</p>
+                        <h4><a href="free_course.html" target="_blank">আমাদের অনলাইন ফ্রি কোর্সগুলো দেখতে এখানে ক্লিক করুন</a></h4>
+                        <h4><a href="premium_course.html" target="_blank">আমাদের অনলাইন প্রিমিয়াম কোর্সগুলো সম্পর্কে জানতে এখানে ক্লিক করুন</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog details part end-->
+
+    <!--Footer part start-->
+
+    <footer id="footer_part">
+        <div class="container">
+            <div class="row footer_top_wrap">
+                <div class="col-lg-4">
+                    <div class="footer_left wow slideInLeft" data-wow-duration="1s">
+                        <img src="img/logo.png" alt="not found" class="img-fluid">
+                        <h2>ওয়েব ট্রেনিং ইনস্টিটিউট</h2>
+                        <p>ওয়েব ট্রেনিং ইনস্টিটিউট বাংলাদেশের অন্যতম একটি অনলাইন কোচিং সেন্টার। আমাদের অনলাইন এবং অফলাইন কোর্সগুলো দেখুন, ব্লগ পোস্ট গুলো পড়ুন এবং নিজেকে একজন সফল ওয়েব ডিজাইনার এবং ওয়েব ডেভেলপার হিসেবে গড়ে তুলুন। আন্তর্জাতিক মানের ওয়েব ডিজাইনার এবং ডেভেলপার তৈরি করা হচ্ছে আমাদের একমাত্র উদ্দেশ্য।</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_middle wow slideInDown" data-wow-duration="1.5s">
+                        <h3>ওয়েব ট্রেনিং লিংকস</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/webtraininginstitute360" target="_blank">ফেইসবুক পেইজ</a></li>
+                            <li><a href="https://www.facebook.com/groups/websecrectgroup" target="_blank">ফেইসবুক গ্রুপ</a></li>
+                            <li><a href="https://www.youtube.com/webtraininginstitute" target="_blank">ইউটিউব চ্যানেল</a></li>
+                            <li><a href="free_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ফ্রী কোর্স</a></li>
+                            <li><a href="premium_course.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট প্রিমিয়াম কোর্স</a></li>
+                            <li><a href="blog.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট ব্লগ</a></li>
+                            <li><a href="webdesign_service.html" target="_blank">ওয়েব ট্রেনিং ইনস্টিটিউট সার্ভিস</a></li>
+                            <li><a href="contact.html" target="_blank">যোগাযোগ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_right wow slideInRight" data-wow-duration="1s">
+                        <h3>যোগাযোগ করুন</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> মৌচাক অফিসঃ মাহেরা কটেজ (UCC গলি), ৮০ সিদ্ধেশ্বরী রোড, ঢাকা-১২১৭। (রস মিষ্টান্ন ভান্ডার এর পাশের গলি)</p>
+                        <p><i class="fas fa-phone-square"></i> 01868752464, 01318948051</p>
+                        <p><i class="fas fa-envelope"></i> info.webtraininginstitute@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.webtraininginstitute.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom_wrap">
+                <div class="col-lg-12">
+                    <div class="footer_bottom_text text-center">
+                        <p>Copyright <span>&copy;</span> 2019 Web Training Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer part end-->
+
+    <!--Scroll to top start-->
+
+    <div class="scroll_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--Scroll to top end-->
+
+
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
